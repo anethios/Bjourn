@@ -1,4 +1,4 @@
-﻿Log file open, 11/02/18 11:23:18
+﻿Log file open, 11/11/18 17:20:12
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Bjourn
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.281678
+LogStats: Stats thread started at 3.634782
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.381s to configure plugins.
+LogStreaming: Display: Took  0.404s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,670 +147,428 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.083s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.02-16.23.20:630][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.02-16.23.20:630][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.02-16.23.20:816][  0]LogHAL: Display: Platform has ~ 10 GB [10491457536 / 17179869184 / 10], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.02-16.23.20:816][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.02-16.23.20:816][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.02-16.23.20:817][  0]LogInit: Computer: DESKTOP-RPLIV76
-[2018.11.02-16.23.20:817][  0]LogInit: User: mytho
-[2018.11.02-16.23.20:817][  0]LogInit: CPU Page size=4096, Cores=3
-[2018.11.02-16.23.20:817][  0]LogInit: High frequency timer resolution =3.409430 MHz
-[2018.11.02-16.23.20:817][  0]LogMemory: Memory total: Physical=9.8GB (10GB approx)
-[2018.11.02-16.23.20:817][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.02-16.23.20:817][  0]LogMemory: Process Physical Memory: 100.91 MB used, 100.91 MB peak
-[2018.11.02-16.23.20:817][  0]LogMemory: Process Virtual Memory: 89.13 MB used, 89.13 MB peak
-[2018.11.02-16.23.20:817][  0]LogMemory: Physical Memory: 5336.32 MB used,  4669.11 MB free, 10005.43 MB total
-[2018.11.02-16.23.20:817][  0]LogMemory: Virtual Memory: 4630.37 MB used,  4669.11 MB free, 134217728.00 MB total
-[2018.11.02-16.23.20:850][  0]LogInit: Using OS detected language (en-US).
-[2018.11.02-16.23.20:850][  0]LogInit: Using OS detected locale (en-US).
-[2018.11.02-16.23.20:852][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.02-16.23.21:413][  0]LogStreaming: Display: Took  0.563s to InitEngineTextLocalization.
-[2018.11.02-16.23.21:413][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.02-16.23.21:466][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.02-16.23.21:466][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.02-16.23.21:753][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.02-16.23.21:753][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.02-16.23.21:834][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
-[2018.11.02-16.23.21:834][  0]LogD3D11RHI:       2015/0/5002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.11.02-16.23.21:837][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.02-16.23.21:837][  0]LogD3D11RHI:       0/0/5002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.02-16.23.21:837][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.02-16.23.21:848][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.02-16.23.21:848][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.02-16.23.21:848][  0]LogWindows: EnumDisplayDevices:
-[2018.11.02-16.23.21:849][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
-[2018.11.02-16.23.21:849][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
-[2018.11.02-16.23.21:849][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
-[2018.11.02-16.23.21:850][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
-[2018.11.02-16.23.21:850][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.11.02-16.23.21:850][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
-[2018.11.02-16.23.21:850][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2018.11.02-16.23.21:850][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2018.11.02-16.23.21:850][  0]LogRHI: Texture pool is 1410 MB (70% of 2015 MB)
-[2018.11.02-16.23.21:900][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.02-16.23.21:918][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.02-16.23.21:921][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Users/mytho/Documents/Bjourn/Intermediate/Shaders/WorkingDirectory/8956/).
-[2018.11.02-16.23.21:921][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mytho/AppData/Local/Temp/UnrealShaderWorkingDir/D5889F79464C03304E932AAF4E09BE88/'.
-[2018.11.02-16.23.23:195][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.02-16.23.23:223][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.02-16.23.23:250][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.02-16.23.23:276][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.02-16.23.23:303][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.02-16.23.23:329][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.02-16.23.23:355][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.02-16.23.23:381][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.02-16.23.23:397][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.02-16.23.23:546][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.02-16.23.23:631][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.02-16.23.23:631][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.02-16.23.23:682][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.02-16.23.23:682][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.02-16.23.23:716][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.02-16.23.23:745][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.02-16.23.23:769][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.02-16.23.23:796][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.02-16.23.23:813][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.02-16.23.23:856][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.02-16.23.23:975][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.02-16.23.23:975][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.02-16.23.23:975][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.02-16.23.25:316][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.02-16.23.25:454][  0]LogDerivedDataCache: Loaded boot cache 0.14s 71MB C:/Users/mytho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.02-16.23.25:455][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mytho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.02-16.23.25:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mytho/Documents/Bjourn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.02-16.23.25:456][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.02-16.23.25:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mytho/Documents/Bjourn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.02-16.23.25:456][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.02-16.23.25:477][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.02-16.23.25:489][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mytho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.02-16.23.25:489][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.02-16.23.25:489][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.02-16.23.25:522][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.02-16.23.25:524][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.02-16.23.25:611][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.02-16.23.33:398][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
-[2018.11.02-16.23.34:094][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.02-16.23.34:323][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.02-16.23.34:329][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.02-16.23.34:330][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.02-16.23.34:330][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.02-16.23.34:330][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.02-16.23.34:358][  0]LogNetVersion: Bjourn 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2510388400)
-[2018.11.02-16.23.35:332][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.273709 seconds
-[2018.11.02-16.23.35:346][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.02-16.23.35:346][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.11.02-16.23.35:346][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.02-16.24.00:519][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.02-16.24.00:534][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.02-16.24.01:064][  0]SourceControl: Source control is disabled
-[2018.11.02-16.24.03:681][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.02-16.24.03:737][  0]LogOcInput: OculusInput pre-init called
-[2018.11.02-16.24.03:870][  0]LogEngine: Initializing Engine...
-[2018.11.02-16.24.03:871][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.02-16.24.03:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.02-16.24.03:897][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.02-16.24.03:897][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.02-16.24.03:897][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.02-16.24.04:195][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.02-16.24.04:226][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.02-16.24.04:236][  0]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.02-16.24.04:266][  0]LogInit: FAudioDevice initialized.
-[2018.11.02-16.24.04:266][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.02-16.24.04:576][  0]LogDerivedDataCache: Saved boot cache 0.31s 71MB C:/Users/mytho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.02-16.24.04:594][  0]LogInit: Texture streaming: Enabled
-[2018.11.02-16.24.04:641][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.02-16.24.04:705][  0]LogInit: Transaction tracking system initialized
-[2018.11.02-16.24.04:755][  0]BlueprintLog: New page: Editor Load
-[2018.11.02-16.24.04:933][  0]LocalizationService: Localization service is disabled
-[2018.11.02-16.24.06:328][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.02-16.24.06:328][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.02-16.24.06:353][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.02-16.24.06:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.02-16.24.06:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.02-16.24.06:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.02-16.24.06:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.02-16.24.06:368][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Content/' took 0.07s
-[2018.11.02-16.24.07:457][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.02-16.24.07:457][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.11.02-16.24.07:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.02-16.24.07:576][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 108.899ms to complete.
-[2018.11.02-16.24.07:576][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.120
-[2018.11.02-16.24.09:126][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.02-16.24.09:159][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.02-16.24.09:171][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.02-16.24.09:183][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.02-16.24.09:311][  0]LogCollectionManager: Loaded 0 collections in 0.004605 seconds
-[2018.11.02-16.24.09:565][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Saved/Collections/' took 0.01s
-[2018.11.02-16.24.09:565][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Content/Developers/mytho/Collections/' took 0.01s
-[2018.11.02-16.24.09:565][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Content/Collections/' took 0.01s
-[2018.11.02-16.24.09:565][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.11.02-16.24.09:652][  0]LogContentBrowser: Native class hierarchy populated in 0.0312 seconds. Added 2572 classes and 603 folders.
-[2018.11.02-16.24.09:937][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.02-16.24.12:140][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.11.02-16.24.12:198][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.11.02-16.24.13:811][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.02-16.24.13:811][  0]LogLoad: (Engine Initialization) Total time: 58.59 seconds
-[2018.11.02-16.24.13:811][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.02-16.24.13:823][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.02-16.24.14:006][  0]LogContentStreaming: Texture pool size now 400 MB
-[2018.11.02-16.24.14:008][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.02-16.24.14:012][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.02-16.24.14:042][  0]LogSlate: Took 0.018093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.02-16.24.15:274][  1]LogRenderer: Reallocating scene render targets to support 780x320 Format 9 NumSamples 1 (Frame:1).
-[2018.11.02-16.24.15:537][  5]LogAssetRegistry: Asset discovery search completed in 42.1620 seconds
-[2018.11.02-16.24.15:540][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.11.02-16.24.15:540][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
-[2018.11.02-16.24.19:651][472]LogSlate: Took 0.039567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.02-16.25.20:844][445]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.02-16.25.22:257][611]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.02-16.25.39:060][358]SourceControl: fatal: /Script: '/Script' is outside repository
-[2018.11.02-16.25.45:302][100]LogSlate: Window 'Editor Preferences' being destroyed
-[2018.11.02-16.25.45:306][100]LogSlate: Window 'Editor Preferences' being destroyed
-[2018.11.02-16.25.46:767][246]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.02-16.25.48:602][465]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.02-16.25.57:468][423]LogSlate: Window 'Editor Preferences' being destroyed
-[2018.11.02-16.25.57:472][423]LogSlate: Window 'Editor Preferences' being destroyed
-[2018.11.02-16.25.59:361][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.02-16.26.58:343][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.02-16.27.42:481][266]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.02-16.27.59:040][266]LogSlate: Window 'Replace References?' being destroyed
-[2018.11.02-16.27.59:043][266]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.02-16.28.00:106][266]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.02-16.28.24:911][266]LogSlate: Window 'Save Content' being destroyed
-[2018.11.02-16.28.24:957][266]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.02-16.28.25:177][266]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.02-16.28.25:383][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane001452D1C7A48E155F8ACCF619E05D2AB33.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane001.uasset'
-[2018.11.02-16.28.25:431][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane00260DC87164EA9C68E1010DF934ECE77B4.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane002.uasset'
-[2018.11.02-16.28.25:471][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0030ADABBE9424ADC228363A0BDA64C02AE.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane003.uasset'
-[2018.11.02-16.28.25:603][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0048A58C6DD422D8C980A492CB2E32B2111.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane004.uasset'
-[2018.11.02-16.28.25:637][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0053A47156946F19B7BF5CBF9A5DA258287.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane005.uasset'
-[2018.11.02-16.28.25:673][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0061EFEE622436A4CF129E103821DE67BA1.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane006.uasset'
-[2018.11.02-16.28.25:709][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane007BFB343EF461EDC027CBE0D80348A4CFD.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane007.uasset'
-[2018.11.02-16.28.25:745][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane008C9D13554465E3DF9820F74ABB6B3C270.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane008.uasset'
-[2018.11.02-16.28.25:780][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane00929CFBFB546F13102EF3EF686A5959322.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane009.uasset'
-[2018.11.02-16.28.25:815][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane010F75493114BBA777C77858EB8AFE24AFF.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane010.uasset'
-[2018.11.02-16.28.25:850][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane01136EDAECE4BC1282281D337BC11B5FB6D.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane011.uasset'
-[2018.11.02-16.28.25:885][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane012B9EA505D4143B8801D2E099AACF18DDD.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane012.uasset'
-[2018.11.02-16.28.25:921][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane013CB6184E240D7112100AEFF9385419C27.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane013.uasset'
-[2018.11.02-16.28.25:992][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0141BF4D79F4122F8EBBD9C1CAE6A53CE4D.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane014.uasset'
-[2018.11.02-16.28.26:030][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0156E0F3C944D4BED9CB44CB2905DFE9A91.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane015.uasset'
-[2018.11.02-16.28.26:066][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane016BE419B514939C2311477DC9893692D90.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane016.uasset'
-[2018.11.02-16.28.26:102][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0179E1DB2E7473C53F44D7782BE3F3F95B4.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane017.uasset'
-[2018.11.02-16.28.26:176][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0187BE3AE1E4BADB364D22619B7CBC1BC53.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane018.uasset'
-[2018.11.02-16.28.26:230][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0199D96AFD54FFFB20F25DA419C5C1A0013.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane019.uasset'
-[2018.11.02-16.28.26:271][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane020B77E2F634ED405DF61FACBBCCDA27C6B.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane020.uasset'
-[2018.11.02-16.28.26:311][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane021DC43C0E64DC2D61CE79F33B10C648188.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane021.uasset'
-[2018.11.02-16.28.26:353][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane023C728CFC64B150753BE7F3B874C3822B7.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane023.uasset'
-[2018.11.02-16.28.26:393][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane024E7BE0A7D4FCE3E7B53B90883681F0CB0.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane024.uasset'
-[2018.11.02-16.28.26:435][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0253532071D43B0842AEF87F2975ECFAAEB.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane025.uasset'
-[2018.11.02-16.28.26:521][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane02667AAB70C4DB79E203675548215C8736A.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane026.uasset'
-[2018.11.02-16.28.26:558][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0275E4C557B477A8A8003612DA4248B7A84.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane027.uasset'
-[2018.11.02-16.28.26:629][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane028B112F7394EDD7D32E5370F89B1027F03.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane028.uasset'
-[2018.11.02-16.28.26:666][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane029D7EFFA8B4073B73A23A88292B9A8AC49.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane029.uasset'
-[2018.11.02-16.28.26:704][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0302B77FB864DFC9C6DF4C8C295CB4F2BE3.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane030.uasset'
-[2018.11.02-16.28.26:743][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0312C17F6974D191EEF9E426BAE90D318CC.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane031.uasset'
-[2018.11.02-16.28.26:782][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane032F5012F864CE34A0A89AF37976E5C6EB7.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane032.uasset'
-[2018.11.02-16.28.26:820][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane033A3D4BACB45DC187FC901C6BAF7D4EC7C.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane033.uasset'
-[2018.11.02-16.28.26:857][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0349E7F284E4FE776A7179FD0837AA2163F.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane034.uasset'
-[2018.11.02-16.28.26:895][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0354E5631CD452023BB6D0CA1AAF3D66AC9.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane035.uasset'
-[2018.11.02-16.28.26:933][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane036244C1720437509C5353181BDD36E4A5D.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane036.uasset'
-[2018.11.02-16.28.26:971][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane037872760AB400A342A40596F85B12654C9.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane037.uasset'
-[2018.11.02-16.28.27:009][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane038139302CE4E3FD224ABABA6B0A23683EB.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane038.uasset'
-[2018.11.02-16.28.27:049][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0397E349F2D41000BC8187C74952804C2D7.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane039.uasset'
-[2018.11.02-16.28.27:089][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane04025D8C9594E8E9DDA97C97784295E3CB4.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane040.uasset'
-[2018.11.02-16.28.27:129][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane041AB709309432D02EC4CD13BA4245F8AA3.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane041.uasset'
-[2018.11.02-16.28.27:168][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane04353112E434EB6D964570295BEF5BF5AD5.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane043.uasset'
-[2018.11.02-16.28.27:206][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane04490D95B254DACDB082E94FC94C6B5446E.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane044.uasset'
-[2018.11.02-16.28.27:245][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0456971CDF14985CD04632C35AFA9203594.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane045.uasset'
-[2018.11.02-16.28.27:284][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0461CA05B9F494E8740ECA0089F41E1D1D6.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane046.uasset'
-[2018.11.02-16.28.27:327][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane047C702B2824D1E5D1E62B9EBBBBE1CFE26.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane047.uasset'
-[2018.11.02-16.28.27:371][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane04808A31BA947E8D0EA00371BB01A6B2D96.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane048.uasset'
-[2018.11.02-16.28.27:414][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane049C695CBF949CDC8432DDDD7BE7E9447B7.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane049.uasset'
-[2018.11.02-16.28.27:454][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane050E1B820304A639FF71218BB8533AEF710.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane050.uasset'
-[2018.11.02-16.28.27:492][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane051AFD92A3147FE6823EA41B480A1767923.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane051.uasset'
-[2018.11.02-16.28.27:531][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane05297DFAF1F422DD3C152EFCBBA4769F19A.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane052.uasset'
-[2018.11.02-16.28.27:570][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0534DCB4DF74ED1C847A254F487C5E9DA10.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane053.uasset'
-[2018.11.02-16.28.27:609][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane05431ADF07446B500566F61398C23977EBC.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane054.uasset'
-[2018.11.02-16.28.27:649][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0558FCB7ACE4C8B75EE6B3269A6009A9B99.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane055.uasset'
-[2018.11.02-16.28.27:689][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane05621E8830841A6AC0FF591359FB7F53513.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane056.uasset'
-[2018.11.02-16.28.27:730][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane05761DF18BC475014A41E52AFB7899C60A6.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane057.uasset'
-[2018.11.02-16.28.27:769][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane058AC663BFB47315216BF2BAC8C0BEBDAA7.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane058.uasset'
-[2018.11.02-16.28.27:809][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane05945E8134C40E62F659C54A69785C4647C.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane059.uasset'
-[2018.11.02-16.28.27:853][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane060D25E4EA54A973946E7F761BF2A36F2AA.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane060.uasset'
-[2018.11.02-16.28.27:892][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane061E2206EE94C27B8063ED72EA3CF5AC08E.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane061.uasset'
-[2018.11.02-16.28.27:933][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0625BA3EE0246447489BFDC3E9FFA0C1801.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane062.uasset'
-[2018.11.02-16.28.27:975][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane063B40498FC4BACB5D301839DB9B3865F02.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane063.uasset'
-[2018.11.02-16.28.28:017][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0643FFD17904B4ED355BBDE3A80E60EFEB4.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane064.uasset'
-[2018.11.02-16.28.28:058][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0657D64D1234202BDC74A8B23988F39F2D4.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane065.uasset'
-[2018.11.02-16.28.28:098][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane066CE48DB7B4C839C7C704501A4902CC7AC.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane066.uasset'
-[2018.11.02-16.28.28:138][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane067CCD4730849A8D8B4C2CC20A57D993EFA.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane067.uasset'
-[2018.11.02-16.28.28:179][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane068ECACCA984CC7297A7DFF888F40BB95A2.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane068.uasset'
-[2018.11.02-16.28.28:219][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0697720B12F44AED0E9782E64B2AF816E27.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane069.uasset'
-[2018.11.02-16.28.28:260][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane070F1C6309D400E48B88E8FCCAC58B4CCE5.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane070.uasset'
-[2018.11.02-16.28.28:304][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane07103F4988240823B6962B0498EF60D5700.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane071.uasset'
-[2018.11.02-16.28.28:346][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane072A8A144134BBDE35F23625BBA4831ABE7.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane072.uasset'
-[2018.11.02-16.28.28:387][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0733683844D471A11BA8B991D9D362D9A52.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane073.uasset'
-[2018.11.02-16.28.28:428][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane074227A823148C897812DE153B619664D86.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane074.uasset'
-[2018.11.02-16.28.28:470][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane0750793A3C649AA06F77F22278B56B4B867.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane075.uasset'
-[2018.11.02-16.28.28:513][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane07615F2C4054156B8DDF53B4896A10EF0FE.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane076.uasset'
-[2018.11.02-16.28.28:555][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane077E67D27BF4A1512FE25B08998EDFE94DA.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane077.uasset'
-[2018.11.02-16.28.28:598][266]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane07888C78B94424C9662954B9A84FDAE4301.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane078.uasset'
-[2018.11.02-16.28.35:382][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.02-16.30.03:752][970]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.02-16.31.46:104][335]LogSlate: Window 'Replace References?' being destroyed
-[2018.11.02-16.31.46:107][335]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.02-16.31.55:892][335]LogSlate: Window 'Save Content' being destroyed
-[2018.11.02-16.31.56:148][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5431D6AEECF4DD16617B89814B323F2CEC3.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane543.uasset'
-[2018.11.02-16.31.56:191][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane544C560A9054640EA1BCC8DE29AC319B92A.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane544.uasset'
-[2018.11.02-16.31.56:256][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane54596E0067B47AD90F637113F8E4FA0E6C5.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane545.uasset'
-[2018.11.02-16.31.56:300][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane54602BEAC0D45987D2259F976AA0A835199.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane546.uasset'
-[2018.11.02-16.31.56:343][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane547D771F3644EF8DA8C3C916C80AA56C576.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane547.uasset'
-[2018.11.02-16.31.56:385][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane548F85518C7412E26DFDBCB8FBC1AE34DC9.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane548.uasset'
-[2018.11.02-16.31.56:428][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5493C780F8B44B6EC95709CB1AECD983D30.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane549.uasset'
-[2018.11.02-16.31.56:471][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane550E7CFAE454146845E71637792186DC8D3.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane550.uasset'
-[2018.11.02-16.31.56:520][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane551E40B267C48B355F8C1E88A935AE2806A.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane551.uasset'
-[2018.11.02-16.31.56:565][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane552CD96AB964EE133C3B65566960324584F.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane552.uasset'
-[2018.11.02-16.31.56:608][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane553240EFE274B3AFCF40D06D6A6FC5D4B05.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane553.uasset'
-[2018.11.02-16.31.56:650][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5548C3D84664B268EA3DB9B1C8B7443F0FB.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane554.uasset'
-[2018.11.02-16.31.56:692][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane555468C0C8D40DB62BCCE54E5B49D910940.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane555.uasset'
-[2018.11.02-16.31.56:735][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane556FBEFED9943B5635634B2028C256BADEA.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane556.uasset'
-[2018.11.02-16.31.56:783][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane557B28023CF465448A8DACD1D9949C43ADA.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane557.uasset'
-[2018.11.02-16.31.56:830][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane55869E73C9941F6A94B623564BB322DF2AA.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane558.uasset'
-[2018.11.02-16.31.56:874][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5596A3CEEB64BB20E1158504894E9FCEA67.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane559.uasset'
-[2018.11.02-16.31.56:918][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5602D7D49EF4F100A5FFF11D6B3EC725D7B.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane560.uasset'
-[2018.11.02-16.31.56:962][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane56106F30A9C4E04067370ACE58C26C00E88.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane561.uasset'
-[2018.11.02-16.31.57:005][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane562CC93B3D54A7F209AC89E26928BD2B2D4.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane562.uasset'
-[2018.11.02-16.31.57:052][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5637280D42C41E0EB244D23B6A0CBE1BD16.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane563.uasset'
-[2018.11.02-16.31.57:096][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane564E1128C654F288311678CCDB8E55BB635.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane564.uasset'
-[2018.11.02-16.31.57:139][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane56575DCEC1A4202D28F491EF9950EDC0DD5.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane565.uasset'
-[2018.11.02-16.31.57:200][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane56621C8A63B4FBB5062C52AE3BF4EB2E19D.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane566.uasset'
-[2018.11.02-16.31.57:252][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5670A8F07D7429E15DAE8F52F9F5039A8E8.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane567.uasset'
-[2018.11.02-16.31.57:300][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane56890D657E34CF29B795C58C2A935D3041E.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane568.uasset'
-[2018.11.02-16.31.57:348][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane569F0EBB6A34BD62AC708DB6F976C1B0ACD.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane569.uasset'
-[2018.11.02-16.31.57:395][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane570A102BD9E4AF1130718B571A10E3F7295.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane570.uasset'
-[2018.11.02-16.31.57:441][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane57175086A42462EEB792D771180497D3F89.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane571.uasset'
-[2018.11.02-16.31.57:488][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane572517903494A26BB41FD31E38E5852C090.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane572.uasset'
-[2018.11.02-16.31.57:534][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane573E15826784C6B2043F1FE1BBAE3F751A0.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane573.uasset'
-[2018.11.02-16.31.57:594][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane57418FF12DE44B0E8B2D92E75A8AF912498.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane574.uasset'
-[2018.11.02-16.31.57:688][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane57514652E5F453B1774B2A571AE807C520D.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane575.uasset'
-[2018.11.02-16.31.57:739][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5767D91018949025A7DF73C0383B5D8599E.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane576.uasset'
-[2018.11.02-16.31.57:789][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5773F8B11094EECF90B7F170CB96029C0F9.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane577.uasset'
-[2018.11.02-16.31.57:838][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane578C70AA1E04881C7441BBFCA88BAD98BA4.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane578.uasset'
-[2018.11.02-16.31.57:885][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane57992A830054ACA8378C5C2C79107665DE4.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane579.uasset'
-[2018.11.02-16.31.57:952][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane58085271EA84E2BE30EB063B681A6A29C8E.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane580.uasset'
-[2018.11.02-16.31.57:999][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane581527462BD4CF0F26DA7AF84B0B44A35A0.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane581.uasset'
-[2018.11.02-16.31.58:046][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane582D22B2A3549EF23F5426108B5640FD81A.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane582.uasset'
-[2018.11.02-16.31.58:092][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane583CD73ED30411798F40A1CC1A1954690DC.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane583.uasset'
-[2018.11.02-16.31.58:145][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5840EDE9760496FD4CDC2BFFE9C5ADF8EE6.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane584.uasset'
-[2018.11.02-16.31.58:195][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5853D7FE0BE415AE938A24357A0C2F6867C.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane585.uasset'
-[2018.11.02-16.31.58:246][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5868C81A49E42ECF96BEFEE54AFC2BD9EDE.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane586.uasset'
-[2018.11.02-16.31.58:294][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane587EDECD0F74A65C7B8574FB7A79F30B3F3.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane587.uasset'
-[2018.11.02-16.31.58:407][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane58898431FB042D48E4D4BE97587843BDA88.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane588.uasset'
-[2018.11.02-16.31.58:518][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane58906E78A8848908B3E88A83A8F427E737A.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane589.uasset'
-[2018.11.02-16.31.58:580][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane59069C001D4424F170FCA6C9C859A01FF97.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane590.uasset'
-[2018.11.02-16.31.58:649][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5910B29B554498CB2E6A3E247AD815AE9DF.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane591.uasset'
-[2018.11.02-16.31.58:705][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5920B57D2214C24AA6C2E30BAA8A8A1BF0C.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane592.uasset'
-[2018.11.02-16.31.58:760][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane593E9F9A06740104D0AFCD479BADFDEF3DE.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane593.uasset'
-[2018.11.02-16.31.58:812][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane59421D8F2D44244A44737C4B2AC52FD5CBF.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane594.uasset'
-[2018.11.02-16.31.58:866][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane595612CA8E84E5F9C65C0B905966CF4E417.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane595.uasset'
-[2018.11.02-16.31.58:922][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane596CC481376422A6F180132A7B9A78CC4F3.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane596.uasset'
-[2018.11.02-16.31.58:977][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane5979F96BCF4461FF4577E5050B8DE413903.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane597.uasset'
-[2018.11.02-16.31.59:027][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane59826A2DE2C480425E6CB3151BC77108DFC.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane598.uasset'
-[2018.11.02-16.31.59:076][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane599E0A4FB1C44FBB20163E03E80B465936D.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane599.uasset'
-[2018.11.02-16.31.59:126][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane60033DB15CE4736391EEBC6ACB0632491A1.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane600.uasset'
-[2018.11.02-16.31.59:175][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane60170BC4DFC41EB6682F88F7EAE92F79D15.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane601.uasset'
-[2018.11.02-16.31.59:224][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane602B6878C1744F59536C3DE8CA04939AB3C.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane602.uasset'
-[2018.11.02-16.31.59:273][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane6035EB8B69341E51FF0447BDDA121314141.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane603.uasset'
-[2018.11.02-16.31.59:323][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane6048D34856844A63AB5C26C1E8B0E37A018.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane604.uasset'
-[2018.11.02-16.31.59:371][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane605025067284A6FDCEE0CC0DA991508D0E1.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane605.uasset'
-[2018.11.02-16.31.59:422][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane606A27E0E47479347427A5437A02B74D94F.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane606.uasset'
-[2018.11.02-16.31.59:474][335]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/färdig_nu__Plane607E25A888244FA0AB63E91088CE4257358.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Structures/viking-house/source/färdig_nu__Plane607.uasset'
-[2018.11.02-16.32.08:413][841]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.02-16.33.38:515][610]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.02-16.35.00:852][ 25]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.02-16.35.52:513][656]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.02-16.37.55:723][676]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.02-16.38.57:425][762]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Instantiable/Structures/Viking_Hut.Viking_Hut
-[2018.11.02-16.39.00:162][762]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0028 seconds. Added 116 classes and 0 folders.
-[2018.11.02-16.39.03:450][762]LogSlate: Took 0.029608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.02-16.39.23:111][959]LogRenderer: Reallocating scene render targets to support 780x380 Format 9 NumSamples 1 (Frame:1).
-[2018.11.02-16.39.45:893][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.02-16.49.04:108][342]LogSlate: Window 'Bjourn - Unreal Editor' being destroyed
-[2018.11.02-16.49.04:521][343]Cmd: QUIT_EDITOR
-[2018.11.02-16.49.04:592][343]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.02-16.49.04:712][343]LogExit: Preparing to exit.
-[2018.11.02-16.49.05:594][343]LogExit: Editor shut down
-[2018.11.02-16.49.05:595][343]LogExit: Transaction tracking system shut down
-[2018.11.02-16.49.06:087][343]LogExit: Object subsystem successfully closed.
-[2018.11.02-16.49.06:107][343]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.11.02-16.49.06:115][343]LogD3D11RHI: Shutdown
-[2018.11.02-16.49.06:115][343]LogD3D11RHI: CleanupD3DDevice
-[2018.11.02-16.49.06:141][343]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.11.02-16.49.06:188][343]LogModuleManager: Shutting down and abandoning module BlueprintGraph (610)
-[2018.11.02-16.49.06:188][343]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (608)
-[2018.11.02-16.49.06:188][343]LogModuleManager: Shutting down and abandoning module SceneOutliner (606)
-[2018.11.02-16.49.06:188][343]LogModuleManager: Shutting down and abandoning module AddContentDialog (604)
-[2018.11.02-16.49.06:195][343]LogModuleManager: Shutting down and abandoning module WidgetCarousel (603)
-[2018.11.02-16.49.06:195][343]LogModuleManager: Shutting down and abandoning module EditorWidgets (600)
-[2018.11.02-16.49.06:195][343]LogModuleManager: Shutting down and abandoning module CollectionManager (598)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2018.11.02-16.49.06:196][343]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2018.11.02-16.49.06:197][343]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2018.11.02-16.49.06:198][343]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2018.11.02-16.49.06:198][343]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2018.11.02-16.49.06:198][343]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2018.11.02-16.49.06:198][343]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2018.11.02-16.49.07:070][343]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2018.11.02-16.49.07:071][343]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2018.11.02-16.49.07:071][343]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2018.11.02-16.49.07:071][343]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2018.11.02-16.49.07:071][343]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2018.11.02-16.49.07:071][343]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2018.11.02-16.49.07:071][343]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2018.11.02-16.49.07:071][343]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2018.11.02-16.49.07:071][343]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2018.11.02-16.49.07:072][343]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2018.11.02-16.49.07:072][343]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2018.11.02-16.49.07:072][343]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2018.11.02-16.49.07:072][343]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2018.11.02-16.49.07:072][343]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2018.11.02-16.49.07:072][343]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2018.11.02-16.49.07:072][343]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2018.11.02-16.49.07:073][343]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2018.11.02-16.49.07:073][343]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2018.11.02-16.49.07:073][343]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2018.11.02-16.49.07:073][343]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2018.11.02-16.49.07:073][343]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2018.11.02-16.49.07:073][343]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2018.11.02-16.49.07:127][343]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2018.11.02-16.49.07:127][343]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2018.11.02-16.49.07:127][343]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2018.11.02-16.49.07:127][343]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2018.11.02-16.49.07:127][343]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2018.11.02-16.49.07:127][343]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2018.11.02-16.49.07:128][343]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2018.11.02-16.49.07:128][343]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2018.11.02-16.49.07:128][343]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2018.11.02-16.49.07:128][343]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2018.11.02-16.49.07:147][343]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2018.11.02-16.49.07:148][343]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2018.11.02-16.49.07:148][343]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2018.11.02-16.49.07:148][343]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.11.02-16.49.07:148][343]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.11.02-16.49.07:148][343]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.11.02-16.49.07:148][343]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.11.02-16.49.07:148][343]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.11.02-16.49.07:148][343]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.11.02-16.49.07:149][343]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.11.02-16.49.07:150][343]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.11.02-16.49.07:150][343]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2018.11.02-16.49.07:150][343]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2018.11.02-16.49.07:240][343]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2018.11.02-16.49.07:241][343]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2018.11.02-16.49.07:242][343]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2018.11.02-16.49.07:242][343]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2018.11.02-16.49.07:242][343]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2018.11.02-16.49.07:242][343]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2018.11.02-16.49.07:242][343]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2018.11.02-16.49.07:242][343]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2018.11.02-16.49.07:242][343]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2018.11.02-16.49.07:254][343]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2018.11.02-16.49.07:254][343]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2018.11.02-16.49.07:255][343]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2018.11.02-16.49.07:257][343]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2018.11.02-16.49.07:257][343]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2018.11.02-16.49.07:257][343]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2018.11.02-16.49.07:258][343]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2018.11.02-16.49.07:258][343]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2018.11.02-16.49.07:258][343]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2018.11.02-16.49.07:258][343]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2018.11.02-16.49.07:258][343]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2018.11.02-16.49.07:258][343]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2018.11.02-16.49.07:259][343]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2018.11.02-16.49.07:259][343]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2018.11.02-16.49.07:259][343]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2018.11.02-16.49.07:259][343]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2018.11.02-16.49.07:260][343]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2018.11.02-16.49.07:261][343]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2018.11.02-16.49.07:261][343]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2018.11.02-16.49.07:261][343]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2018.11.02-16.49.07:261][343]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2018.11.02-16.49.07:261][343]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2018.11.02-16.49.07:261][343]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2018.11.02-16.49.07:262][343]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.11.02-16.49.07:262][343]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.11.02-16.49.07:262][343]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.11.02-16.49.07:262][343]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.11.02-16.49.07:262][343]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.11.02-16.49.07:262][343]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.11.02-16.49.07:262][343]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.11.02-16.49.07:263][343]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.11.02-16.49.07:263][343]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.11.02-16.49.07:364][343]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.11.02-16.49.07:465][343]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.11.02-16.49.07:465][343]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.11.02-16.49.07:465][343]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.11.02-16.49.07:465][343]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.11.02-16.49.07:465][343]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.11.02-16.49.07:465][343]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.11.02-16.49.07:465][343]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.11.02-16.49.07:468][343]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.11.02-16.49.07:468][343]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.11.02-16.49.07:468][343]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.11.02-16.49.07:469][343]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.11.02-16.49.07:470][343]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.11.02-16.49.07:476][343]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.11.02-16.49.07:476][343]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.11.02-16.49.07:476][343]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.11.02-16.49.07:476][343]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.11.02-16.49.07:476][343]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.11.02-16.49.07:476][343]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.11.02-16.49.07:481][343]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.11.02-16.49.07:489][343]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.11.02-16.49.07:489][343]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.11.02-16.49.07:489][343]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.11.02-16.49.07:490][343]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.11.02-16.49.07:491][343]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.11.02-16.49.07:491][343]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.11.02-16.49.07:491][343]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.11.02-16.49.07:491][343]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.11.02-16.49.07:491][343]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.11.02-16.49.07:492][343]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.11.02-16.49.07:492][343]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.11.02-16.49.07:498][343]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.11.02-16.49.07:498][343]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.11.02-16.49.07:499][343]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.11.02-16.49.07:499][343]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.11.02-16.49.07:499][343]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.11.02-16.49.07:499][343]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.11.02-16.49.07:499][343]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.11.02-16.49.07:499][343]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.11.02-16.49.07:499][343]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.11.02-16.49.07:499][343]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.11.02-16.49.07:499][343]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.11.02-16.49.07:500][343]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.11.02-16.49.07:500][343]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.11.02-16.49.07:500][343]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.11.02-16.49.07:500][343]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.11.02-16.49.07:500][343]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.11.02-16.49.07:500][343]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.11.02-16.49.07:501][343]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.11.02-16.49.07:543][343]LogDerivedDataCache: Shutdown
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.11.02-16.49.07:544][343]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.11.02-16.49.07:545][343]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.11.02-16.49.07:545][343]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.11.02-16.49.07:545][343]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.11.02-16.49.07:545][343]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.11.02-16.49.07:545][343]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.11.02-16.49.07:545][343]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.11.02-16.49.07:545][343]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.11.02-16.49.07:545][343]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.11.02-16.49.07:546][343]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.11.02-16.49.07:546][343]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.11.02-16.49.07:546][343]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.11.02-16.49.07:546][343]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.11.02-16.49.07:553][343]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.11.02-16.49.07:553][343]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.11.02-16.49.07:559][343]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.11.02-16.49.07:559][343]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.11.02-16.49.07:593][343]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.11.02-16.49.07:594][343]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.11.02-16.49.07:594][343]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.11.02-16.49.07:594][343]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.11.02-16.49.07:594][343]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.11.02-16.49.07:594][343]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.11.02-16.49.07:594][343]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.11.02-16.49.07:595][343]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.11.02-16.49.07:595][343]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.11.02-16.49.07:598][343]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.11.02-16.49.07:598][343]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.11.02-16.49.07:598][343]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB93E19EF-4E1E-917A-A6E8-B4A598365E5F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=f2bfde6f4682c434fa2889b766d0c927%7Cd574905b99dd45faa248d69dd94973fb%7Ca6d29458-3977-47c9-b21b-4705f3233949&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.11.02-16.49.07:630][343]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.11.02-16.49.07:632][343]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.11.02-16.49.07:632][343]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.11.02-16.49.07:632][343]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.11.02-16.49.07:632][343]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.11.02-16.49.07:632][343]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.11.02-16.49.07:632][343]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.11.02-16.49.07:632][343]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.11.02-16.49.07:632][343]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.11.02-16.49.07:632][343]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.11.02-16.49.07:633][343]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.11.02-16.49.07:633][343]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.11.02-16.49.07:633][343]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.11.02-16.49.07:633][343]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.11.02-16.49.07:633][343]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.11.02-16.49.07:633][343]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.11.02-16.49.07:633][343]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.11.02-16.49.07:633][343]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.11.02-16.49.07:633][343]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.11.02-16.49.07:634][343]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.11.02-16.49.07:634][343]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.11.02-16.49.07:634][343]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.11.02-16.49.07:634][343]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.11.02-16.49.07:634][343]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.11.02-16.49.07:634][343]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.11.02-16.49.07:634][343]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.11.02-16.49.07:635][343]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.11.02-16.49.07:635][343]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.11.02-16.49.07:635][343]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.11.02-16.49.07:635][343]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.11.02-16.49.07:643][343]LogExit: Exiting.
-[2018.11.02-16.49.07:649][343]Log file closed, 11/02/18 11:49:07
+[2018.11.11-23.20.14:562][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.11-23.20.14:562][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.11-23.20.14:723][  0]LogHAL: Display: Platform has ~ 10 GB [10491457536 / 17179869184 / 10], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.11-23.20.14:723][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.11-23.20.14:723][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.11-23.20.14:779][  0]LogInit: Computer: DESKTOP-RPLIV76
+[2018.11.11-23.20.14:779][  0]LogInit: User: mytho
+[2018.11.11-23.20.14:779][  0]LogInit: CPU Page size=4096, Cores=3
+[2018.11.11-23.20.14:779][  0]LogInit: High frequency timer resolution =3.409424 MHz
+[2018.11.11-23.20.14:779][  0]LogMemory: Memory total: Physical=9.8GB (10GB approx)
+[2018.11.11-23.20.14:779][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.11-23.20.14:779][  0]LogMemory: Process Physical Memory: 101.33 MB used, 101.33 MB peak
+[2018.11.11-23.20.14:779][  0]LogMemory: Process Virtual Memory: 89.23 MB used, 89.23 MB peak
+[2018.11.11-23.20.14:779][  0]LogMemory: Physical Memory: 3643.35 MB used,  6362.09 MB free, 10005.43 MB total
+[2018.11.11-23.20.14:780][  0]LogMemory: Virtual Memory: 4630.37 MB used,  6362.09 MB free, 134217728.00 MB total
+[2018.11.11-23.20.15:630][  0]LogInit: Using OS detected language (en-US).
+[2018.11.11-23.20.15:630][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.11-23.20.15:692][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.11-23.20.16:615][  0]LogStreaming: Display: Took  0.985s to InitEngineTextLocalization.
+[2018.11.11-23.20.16:616][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.11-23.20.17:155][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.11-23.20.17:155][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.11-23.20.23:993][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.11-23.20.24:001][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.11-23.20.24:093][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
+[2018.11.11-23.20.24:093][  0]LogD3D11RHI:       2015/0/5002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.11-23.20.24:096][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.11-23.20.24:096][  0]LogD3D11RHI:       0/0/5002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.11-23.20.24:096][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.11-23.20.24:104][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.11-23.20.24:104][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.11-23.20.24:122][  0]LogWindows: EnumDisplayDevices:
+[2018.11.11-23.20.24:122][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
+[2018.11.11-23.20.24:123][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.11.11-23.20.24:123][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.11.11-23.20.24:123][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.11.11-23.20.24:124][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.11-23.20.24:124][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
+[2018.11.11-23.20.24:124][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.11.11-23.20.24:124][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.11.11-23.20.24:124][  0]LogRHI: Texture pool is 1410 MB (70% of 2015 MB)
+[2018.11.11-23.20.24:184][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.11-23.20.24:333][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.11.11-23.20.24:417][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../Users/mytho/Documents/Bjourn/Intermediate/Shaders/WorkingDirectory/12328/).
+[2018.11.11-23.20.24:417][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mytho/AppData/Local/Temp/UnrealShaderWorkingDir/2A14F5834681AC0DA16597B34E1DF636/'.
+[2018.11.11-23.20.25:520][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.11-23.20.25:590][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.11-23.20.25:620][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.11-23.20.25:654][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.11-23.20.25:709][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.11-23.20.25:744][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.11-23.20.25:773][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.11-23.20.25:804][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.11-23.20.25:825][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:005][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:005][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-23.20.26:022][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.11-23.20.26:155][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.11-23.20.26:155][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.11-23.20.26:316][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.11-23.20.26:316][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.11-23.20.26:359][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.11-23.20.26:384][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.11-23.20.26:410][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.11-23.20.26:466][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.11-23.20.26:484][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.11-23.20.26:484][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.11-23.20.27:278][  0]LogXGEController: Cleaning working directory: C:/Users/mytho/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.11-23.20.27:278][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.11-23.20.27:278][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.11-23.20.27:278][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.11-23.20.33:646][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.11-23.20.34:800][  0]LogDerivedDataCache: Loaded boot cache 1.15s 71MB C:/Users/mytho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.11-23.20.34:801][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mytho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.11-23.20.34:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mytho/Documents/Bjourn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.11-23.20.34:802][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.11-23.20.34:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mytho/Documents/Bjourn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.11-23.20.34:802][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.11-23.20.34:894][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.11-23.20.34:908][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mytho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.11-23.20.34:908][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.11-23.20.34:908][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.11-23.20.34:940][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.11-23.20.35:010][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.11-23.20.35:102][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.11-23.20.37:024][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
+[2018.11.11-23.20.40:269][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.11-23.20.41:891][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.11-23.20.42:030][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.11-23.20.42:030][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.11-23.20.42:050][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.11-23.20.42:050][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.11-23.20.42:802][  0]LogNetVersion: Bjourn 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2510388400)
+[2018.11.11-23.20.47:766][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.175364 seconds
+[2018.11.11-23.20.47:801][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.11-23.20.47:801][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.11-23.20.47:801][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.11-23.21.12:666][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.11-23.21.12:701][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.11-23.21.14:234][  0]SourceControl: Source control is disabled
+[2018.11.11-23.21.19:220][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.11-23.21.19:562][  0]LogOcInput: OculusInput pre-init called
+[2018.11.11-23.21.20:365][  0]LogEngine: Initializing Engine...
+[2018.11.11-23.21.20:413][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.11-23.21.20:443][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2018.11.11-23.21.20:443][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.11-23.21.20:444][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.11-23.21.20:444][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.11-23.21.21:523][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.11-23.21.21:671][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.11-23.21.21:748][  0]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.11-23.21.21:782][  0]LogInit: FAudioDevice initialized.
+[2018.11.11-23.21.21:782][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.11-23.21.22:100][  0]LogDerivedDataCache: Saved boot cache 0.32s 71MB C:/Users/mytho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.11-23.21.22:132][  0]LogInit: Texture streaming: Enabled
+[2018.11.11-23.21.22:352][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.11-23.21.22:670][  0]LogInit: Transaction tracking system initialized
+[2018.11.11-23.21.23:816][  0]BlueprintLog: New page: Editor Load
+[2018.11.11-23.21.27:419][  0]LocalizationService: Localization service is disabled
+[2018.11.11-23.21.34:719][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.11-23.21.34:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Content/' took 0.05s
+[2018.11.11-23.21.34:755][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.11-23.21.34:821][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.11-23.21.34:821][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.11-23.21.34:821][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.11-23.21.34:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.11-23.21.34:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.11-23.21.43:167][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.11-23.21.43:245][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.11-23.21.43:305][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.11-23.21.43:454][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 148.198ms to complete.
+[2018.11.11-23.21.43:454][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.287
+[2018.11.11-23.21.45:724][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.21.45:843][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.21.45:855][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.21.45:867][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.21.46:248][  0]LogCollectionManager: Loaded 0 collections in 0.004838 seconds
+[2018.11.11-23.21.47:095][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Saved/Collections/' took 0.01s
+[2018.11.11-23.21.47:095][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Content/Developers/mytho/Collections/' took 0.01s
+[2018.11.11-23.21.47:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Content/Collections/' took 0.01s
+[2018.11.11-23.21.47:096][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.11-23.21.47:239][  0]LogContentBrowser: Native class hierarchy populated in 0.0726 seconds. Added 2572 classes and 603 folders.
+[2018.11.11-23.21.48:035][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.11-23.21.53:819][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.11-23.21.53:902][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.11.11-23.21.54:973][  0]LogSlate: Took 0.074222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.11-23.21.55:028][  0]LogSlate: Took 0.050845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.11-23.21.55:058][  0]LogSlate: Took 0.024657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.11-23.21.55:576][  0]LogRenderer: Reallocating scene render targets to support 828x376 Format 9 NumSamples 1 (Frame:1).
+[2018.11.11-23.21.56:573][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.11-23.21.56:573][  0]LogLoad: (Engine Initialization) Total time: 128.74 seconds
+[2018.11.11-23.21.56:573][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.11-23.21.56:845][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.11.11-23.21.57:383][  6]LogAssetRegistry: Asset discovery search completed in 80.3822 seconds
+[2018.11.11-23.21.57:386][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.11-23.21.57:386][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2018.11.11-23.22.33:223][  8]LogSlate: Took 0.019388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.11-23.22.33:238][  8]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Instantiable/Structures/Viking_Hall.Viking_Hall
+[2018.11.11-23.22.35:841][  8]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 116 classes and 0 folders.
+[2018.11.11-23.22.39:042][  8]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Imports/Characters/Player/AnimBP.AnimBP
+[2018.11.11-23.22.42:882][  8]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2018.11.11-23.22.43:764][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.11-23.22.43:808][  8]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2018.11.11-23.22.44:503][  8]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.11-23.22.45:480][  8]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Ground_Gravel.M_Ground_Gravel
+[2018.11.11-23.22.45:540][  8]LogMaterial: Display: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2018.11.11-23.22.46:421][  8]LogMaterial: Display: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2018.11.11-23.22.46:583][  8]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.11-23.22.46:583][  8]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.11-23.22.46:605][  8]LogMaterial: Display: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2018.11.11-23.22.46:733][  8]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_25, compiling. 
+[2018.11.11-23.22.46:741][  8]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2018.11.11-23.22.46:820][  8]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.11.11-23.22.46:847][  8]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2018.11.11-23.22.46:894][  8]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.11.11-23.22.46:901][  8]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.11.11-23.22.46:963][  8]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.11.11-23.22.47:316][  8]LogSlate: Took 0.033159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.11-23.22.47:564][  8]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.11.11-23.22.48:014][  8]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.11-23.22.48:818][  9]LogSlate: Took 0.042867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.11-23.22.52:399][163]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.11-23.22.52:420][164]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.11-23.22.52:749][178]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.11-23.22.52:749][178]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.11-23.22.53:079][192]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.11-23.22.53:099][193]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.11-23.22.53:359][204]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.11-23.22.53:382][205]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.11-23.22.53:589][214]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.11-23.22.53:638][216]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.11-23.22.53:864][226]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.11-23.22.54:187][237]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.11-23.22.54:433][245]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.11-23.22.54:533][248]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.11-23.22.55:009][267]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.11-23.22.55:133][272]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.11-23.22.55:351][281]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.11-23.22.55:685][292]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.11-23.22.55:899][300]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.11-23.22.56:039][306]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.11-23.22.56:434][323]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.11-23.22.56:692][334]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.11-23.22.56:763][337]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.11-23.22.57:342][358]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.11-23.22.57:421][361]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.11-23.22.57:716][373]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.11-23.22.58:090][388]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.11-23.22.58:375][400]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.11-23.22.58:400][401]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.11-23.22.58:919][423]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.11-23.22.58:941][424]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.11-23.22.59:240][437]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.11-23.22.59:281][438]MaterialEditorStats: Base pass shader: 126 instructions
+[2018.11.11-23.22.59:281][438]MaterialEditorStats: Base pass shader with Surface Lightmap: 143 instructions
+[2018.11.11-23.22.59:281][438]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 199 instructions
+[2018.11.11-23.22.59:281][438]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.11.11-23.22.59:281][438]MaterialEditorStats: Texture samplers: 7/16
+[2018.11.11-23.22.59:281][438]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2018.11.11-23.22.59:281][438]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.11-23.22.59:369][442]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.11-23.22.59:581][451]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.11-23.22.59:826][461]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.11-23.22.59:922][465]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.11-23.23.00:263][479]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.11-23.23.00:316][481]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.11-23.23.00:647][495]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.11-23.23.00:671][496]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.11-23.23.01:027][511]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.11-23.23.01:078][513]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.11-23.23.01:419][527]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.11-23.23.01:467][529]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.11-23.30.54:749][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.30.56:282][ 73]LogSlate: Window 'M_Ground_Gravel' being destroyed
+[2018.11.11-23.30.56:934][150]LogSlate: Took 0.000490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.11-23.34.41:512][768]LogMaterial: Display: Missing cached shader map for material tree_tree_trunk, compiling. 
+[2018.11.11-23.34.41:524][768]LogMaterial: Warning: C:\Users\mytho\Documents\Bjourn\Content\Imports\Environment\Trees\Leafed\tree_tree_trunk.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.11-23.34.41:524][768]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/Imports/Environment/Trees/Leafed/TexturesCom_BarkPine0012_1_M_bump.TexturesCom_BarkPine0012_1_M_bump
+[2018.11.11-23.34.41:702][768]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.11-23.34.42:253][768]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area
+[2018.11.11-23.34.42:420][768]Cmd: MAP LOAD FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Maps/Starting_Area.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.11-23.34.42:420][768]LightingResults: New page: Lighting Build
+[2018.11.11-23.34.42:437][768]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2018.11.11-23.34.42:439][768]LoadErrors: New page: Loading map: Starting_Area.umap
+[2018.11.11-23.34.42:494][768]MapCheck: New page: Map Check
+[2018.11.11-23.34.42:494][768]LightingResults: New page: Lighting Build
+[2018.11.11-23.34.49:613][768]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.11-23.34.49:814][768]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.11-23.34.50:182][768]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 368.329ms to complete.
+[2018.11.11-23.34.50:185][768]LogFileHelpers: Loading map 'Starting_Area' took 7.781
+[2018.11.11-23.36.47:430][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.37.40:487][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.38.41:546][348]LogEditorViewport: Clicking on Actor (LMB): Bench_C (Bench)
+[2018.11.11-23.38.42:499][414]Cmd: DELETE
+[2018.11.11-23.38.42:499][414]Cmd: ACTOR DELETE
+[2018.11.11-23.38.42:877][414]LogEditorActor: Deleted Actor: Bench_C
+[2018.11.11-23.38.42:948][414]LogEditorActor: Deleted 1 Actors (0.180 secs)
+[2018.11.11-23.39.00:235][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_Table_Lucy_U)
+[2018.11.11-23.39.10:259][717]Cmd: TRANSACTION UNDO
+[2018.11.11-23.39.10:259][717]LogEditorTransaction: Undo Move Actors
+[2018.11.11-23.39.10:484][717]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.11-23.39.11:187][758]Cmd: TRANSACTION UNDO
+[2018.11.11-23.39.11:187][758]LogEditorTransaction: Undo Move Actors
+[2018.11.11-23.39.11:342][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.11-23.39.29:414][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.39.34:454][444]LogSlate: Window 'Message' being destroyed
+[2018.11.11-23.39.41:852][197]LogMaterialEditor: Saving and Compiling material M_Ground_Gravel
+[2018.11.11-23.39.45:242][197]LogMaterial: Display: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2018.11.11-23.39.45:352][197]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.11-23.39.45:352][197]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.11-23.39.45:388][197]LogMaterial: Display: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2018.11.11-23.39.45:472][197]LogMaterial: Display: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2018.11.11-23.39.45:719][197]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Gravel, compiling. 
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.11-23.39.52:253][197]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.11-23.39.52:254][197]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.11-23.39.52:296][197]TextureStreamingBuild: Display: Compiling optional shaders took 6.620 seconds.
+[2018.11.11-23.39.58:220][197]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.11-23.39.58:220][197]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.11-23.39.58:299][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Ground_Gravel" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/StarterContent/Materials/M_Ground_Gravel.uasset" SILENT=true
+[2018.11.11-23.39.58:373][197]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/M_Ground_GravelF3B83272430038DB5111619285994E9B.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/StarterContent/Materials/M_Ground_Gravel.uasset'
+[2018.11.11-23.40.08:516][138]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.11-23.40.08:572][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.40.08:572][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.11-23.40.08:669][138]PIE: New page: PIE session: Starting_Area (Nov 11, 2018, 11:40:08 AM)
+[2018.11.11-23.40.08:669][138]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.11-23.40.08:828][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158977s)
+[2018.11.11-23.40.08:830][138]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.11-23.40.08:830][138]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2018.11.11-23.40.08:830][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.161133s)
+[2018.11.11-23.40.08:984][138]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.11-23.40.08:999][138]LogInit: FAudioDevice initialized.
+[2018.11.11-23.40.09:013][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.40.09:093][138]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.11-23.40.09:131][138]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.11-17.40.09
+[2018.11.11-23.40.09:135][138]LogWorld: Bringing up level for play took: 0.040086
+[2018.11.11-23.40.09:191][138]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.11.11-23.40.09:218][138]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 1.188
+[2018.11.11-23.40.09:218][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.40.09:341][138]LogRenderer: Reallocating scene render targets to support 916x536 Format 9 NumSamples 1 (Frame:1).
+[2018.11.11-23.41.53:389][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.43.31:632][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.43.47:029][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.43.47:030][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.43.47:081][135]LogSlate: Window 'Bjourn Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.11-23.43.47:138][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.11-23.43.47:138][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.43.47:287][136]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.11.11-23.44.13:523][691]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Village.Village
+[2018.11.11-23.44.59:084][400]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Switcher.Switcher
+[2018.11.11-23.53.02:537][960]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  On Clicked (Button_78)  and was replaced as a Custom Event!
+[2018.11.11-23.53.20:505][810]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  On Clicked (Button_78)  and was replaced as a Custom Event!
+[2018.11.11-23.54.00:483][370]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/Village1F22C0C744117A82D4D5D1A484A1B3AB.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Village.uasset'
+[2018.11.11-23.54.00:883][415]BlueprintLog: New page: Compile Village
+[2018.11.11-23.54.00:979][415]LogBlueprint: Error: [Compiler Village] The property associated with  Statistics  could not be found in '/Game/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Village.Village_C'
+[2018.11.11-23.54.00:979][415]LogBlueprint: Error: [Compiler Village] The property associated with  Recruit  could not be found in '/Game/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Village.Village_C'
+[2018.11.11-23.54.00:979][415]LogBlueprint: Error: [Compiler Village] The property associated with  Recruit  could not be found in '/Game/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Village.Village_C'
+[2018.11.11-23.54.01:432][415]LogBlueprint: Warning: [Compiler Village] [2053.60] Compile of Village failed. 3 Fatal Issue(s) 0 Warning(s) [in 549 ms] (/Game/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Village.Village)
+[2018.11.11-23.54.14:549][892]BlueprintLog: New page: Compile Switcher
+[2018.11.11-23.54.16:501][ 65]BlueprintLog: New page: Compile Village
+[2018.11.11-23.54.20:731][464]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.11-23.54.20:806][464]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.54.20:807][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.11-23.54.20:807][464]PIE: New page: PIE session: Starting_Area (Nov 11, 2018, 11:54:20 AM)
+[2018.11.11-23.54.20:807][464]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.11-23.54.20:898][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091042s)
+[2018.11.11-23.54.20:899][464]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.11-23.54.20:900][464]LogPlayLevel: PIE: World Init took: (0.001618s)
+[2018.11.11-23.54.20:900][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.092896s)
+[2018.11.11-23.54.20:987][464]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.11-23.54.21:000][464]LogInit: FAudioDevice initialized.
+[2018.11.11-23.54.21:011][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.54.21:062][464]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.11-23.54.21:094][464]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.11-17.54.21
+[2018.11.11-23.54.21:098][464]LogWorld: Bringing up level for play took: 0.035428
+[2018.11.11-23.54.21:124][464]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 1.094
+[2018.11.11-23.54.21:125][464]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.54.27:855][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.54.32:488][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.54.36:451][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.54.39:279][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.54.39:280][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.54.39:336][ 14]LogSlate: Window 'Bjourn Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.11-23.54.39:381][ 14]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.11-23.54.39:382][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.54.39:519][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.11.11-23.54.56:094][664]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Player_Character.Player_Character
+[2018.11.11-23.56.54:978][179]BlueprintLog: New page: Compile Player_Character
+[2018.11.11-23.56.57:517][380]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.11-23.56.57:578][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.56.57:578][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.11-23.56.57:578][380]PIE: New page: PIE session: Starting_Area (Nov 11, 2018, 11:56:57 AM)
+[2018.11.11-23.56.57:578][380]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.11-23.56.57:639][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061078s)
+[2018.11.11-23.56.57:641][380]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.11-23.56.57:641][380]LogPlayLevel: PIE: World Init took: (0.001649s)
+[2018.11.11-23.56.57:641][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.063056s)
+[2018.11.11-23.56.57:736][380]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.11-23.56.57:748][380]LogInit: FAudioDevice initialized.
+[2018.11.11-23.56.57:759][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.56.57:812][380]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.11-23.56.57:843][380]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.11-17.56.57
+[2018.11.11-23.56.57:847][380]LogWorld: Bringing up level for play took: 0.033202
+[2018.11.11-23.56.57:872][380]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area -0.159
+[2018.11.11-23.56.57:872][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.57.07:182][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.57.11:338][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.57.19:149][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-23.58.22:714][913]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.58.22:715][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-23.58.22:764][913]LogSlate: Window 'Bjourn Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.11-23.58.22:807][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.11-23.58.22:808][913]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.11-23.58.22:929][914]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.11.12-00.12.05:052][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-00.12.06:631][159]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/SwitcherA3A9EB0943D533BAF5E708A33DB2DFC8.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Switcher.uasset'
+[2018.11.12-00.12.11:483][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player_Character" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Player_Character.uasset" SILENT=true
+[2018.11.12-00.12.11:662][628]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/Player_CharacterCB6715D94967AB6F1611B0AD60BEF07D.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Player_Character.uasset'
