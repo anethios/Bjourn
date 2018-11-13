@@ -1,0 +1,114 @@
+{
+	"Type": "/Script/MovieSceneTools.AutomatedLevelSequenceCapture",
+	"Data":
+	{
+		"levelSequenceAsset": "/Game/Cinematic/Start.Start",
+		"bUseCustomStartFrame": false,
+		"customStartFrame":
+		{
+			"value": 0
+		},
+		"bUseCustomEndFrame": false,
+		"customEndFrame":
+		{
+			"value": 150
+		},
+		"warmUpFrameCount": 0,
+		"delayBeforeWarmUp": 0,
+		"delayBeforeShotWarmUp": 0,
+		"bWriteEditDecisionList": true,
+		"bWriteFinalCutProXML": true,
+		"levelSequenceActor": "None",
+		"captureType":
+		{
+			"identifier": "Video"
+		},
+		"protocolSettings": "VideoCaptureSettings'/Engine/Transient.AutomatedLevelSequenceCaptureUIInstance:VideoCaptureSettings_0'",
+		"settings":
+		{
+			"outputDirectory":
+			{
+				"path": "..\\..\\..\\..\\..\\..\\Users\\mytho\\Documents\\Bjourn\\Saved\\VideoCaptures\\"
+			},
+			"gameModeOverride": "None",
+			"outputFormat": "{world}",
+			"bOverwriteExisting": true,
+			"bUseRelativeFrameNumbers": false,
+			"handleFrames": 0,
+			"zeroPadFrameNumbers": 4,
+			"frameRate":
+			{
+				"numerator": 60,
+				"denominator": 1
+			},
+			"resolution":
+			{
+				"resX": 1280,
+				"resY": 720
+			},
+			"bEnableTextureStreaming": false,
+			"bCinematicEngineScalability": true,
+			"bCinematicMode": true,
+			"bAllowMovement": false,
+			"bAllowTurning": false,
+			"bShowPlayer": true,
+			"bShowHUD": false
+		},
+		"bUseSeparateProcess": true,
+		"bCloseEditorWhenCaptureStarts": false,
+		"additionalCommandLineArguments": "-NOSCREENMESSAGES"
+	},
+	"AdditionalData":
+	{
+		"ProtocolType": "/Script/MovieSceneCapture.VideoCaptureSettings",
+		"ProtocolData":
+		{
+			"bUseCompression": true,
+			"compressionQuality": 94.799995422363281,
+			"videoCodec": ""
+		},
+		"BurnInOptions":
+		{
+			"bUseBurnIn": false,
+			"burnInClass": "/Engine/Sequencer/DefaultBurnIn.DefaultBurnIn_C",
+			"settings": "DefaultBurnInOptions_C'/Engine/Transient.AutomatedLevelSequenceCaptureUIInstance:AutomatedLevelSequenceCaptureUIInstance.Settings'"
+		},
+		"BurnInOptionsInitSettings":
+		{
+			"topLeftText": "{FocalLength}mm, {Aperture}, {FocusDistance} ",
+			"topCenterText": "{MasterName} - {Date} - {EngineVersion}",
+			"topRightText": "{TranslationX} {TranslationY} {TranslationZ}, {RotationX} {RotationY} {RotationZ}",
+			"bottomLeftText": "{ShotName}",
+			"bottomCenterText": "{hh}:{mm}:{ss}:{ff} ({MasterFrame})",
+			"bottomRightText": "{ShotFrame}",
+			"watermark": "None",
+			"watermarkTint":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 0.5
+			},
+			"font":
+			{
+				"fontObject": "Font'/Engine/EngineFonts/DroidSansMono.DroidSansMono'",
+				"fontMaterial": "None",
+				"outlineSettings":
+				{
+					"outlineSize": 0,
+					"bSeparateFillAlpha": false,
+					"outlineMaterial": "None",
+					"outlineColor":
+					{
+						"r": 0,
+						"g": 0,
+						"b": 0,
+						"a": 1
+					}
+				},
+				"typefaceFontName": "Default",
+				"size": 16
+			}
+		}
+	}
+}
