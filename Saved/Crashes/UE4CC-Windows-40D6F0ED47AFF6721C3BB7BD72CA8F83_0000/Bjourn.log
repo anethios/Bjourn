@@ -1,0 +1,1575 @@
+﻿Log file open, 11/12/18 16:21:06
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Bjourn
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.982724
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.270s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-6120 Six-Core Processor             , GPU: NVIDIA GeForce GTX 660 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.12-22.21.08:295][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.12-22.21.08:295][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.12-22.21.08:388][  0]LogHAL: Display: Platform has ~ 10 GB [10491457536 / 17179869184 / 10], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.12-22.21.08:388][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.12-22.21.08:388][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.12-22.21.08:427][  0]LogInit: Computer: DESKTOP-RPLIV76
+[2018.11.12-22.21.08:427][  0]LogInit: User: mytho
+[2018.11.12-22.21.08:427][  0]LogInit: CPU Page size=4096, Cores=3
+[2018.11.12-22.21.08:427][  0]LogInit: High frequency timer resolution =3.409436 MHz
+[2018.11.12-22.21.08:429][  0]LogMemory: Memory total: Physical=9.8GB (10GB approx)
+[2018.11.12-22.21.08:429][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.12-22.21.08:429][  0]LogMemory: Process Physical Memory: 101.29 MB used, 101.29 MB peak
+[2018.11.12-22.21.08:429][  0]LogMemory: Process Virtual Memory: 97.01 MB used, 97.01 MB peak
+[2018.11.12-22.21.08:429][  0]LogMemory: Physical Memory: 3451.75 MB used,  6553.68 MB free, 10005.43 MB total
+[2018.11.12-22.21.08:429][  0]LogMemory: Virtual Memory: 4638.37 MB used,  6553.68 MB free, 134217728.00 MB total
+[2018.11.12-22.21.09:405][  0]LogInit: Using OS detected language (en-US).
+[2018.11.12-22.21.09:406][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.12-22.21.09:419][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.12-22.21.10:342][  0]LogStreaming: Display: Took  0.937s to InitEngineTextLocalization.
+[2018.11.12-22.21.10:342][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.12-22.21.10:630][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.12-22.21.10:630][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.12-22.21.19:582][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.12-22.21.19:582][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.12-22.21.19:672][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
+[2018.11.12-22.21.19:672][  0]LogD3D11RHI:       2015/0/5002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.12-22.21.19:706][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.12-22.21.19:706][  0]LogD3D11RHI:       0/0/5002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.12-22.21.19:706][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.12-22.21.19:715][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.12-22.21.19:715][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.12-22.21.19:715][  0]LogWindows: EnumDisplayDevices:
+[2018.11.12-22.21.19:715][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
+[2018.11.12-22.21.19:715][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.11.12-22.21.19:716][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.11.12-22.21.19:716][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.11.12-22.21.19:716][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.12-22.21.19:716][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
+[2018.11.12-22.21.19:716][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.11.12-22.21.19:716][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.11.12-22.21.19:716][  0]LogRHI: Texture pool is 1410 MB (70% of 2015 MB)
+[2018.11.12-22.21.19:767][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.12-22.21.19:780][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.11.12-22.21.19:782][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Users/mytho/Documents/Bjourn/Intermediate/Shaders/WorkingDirectory/6592/).
+[2018.11.12-22.21.19:783][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mytho/AppData/Local/Temp/UnrealShaderWorkingDir/270C9EFA47F1CA682EE32EB0B179BCB5/'.
+[2018.11.12-22.21.20:874][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.12-22.21.20:913][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.12-22.21.20:952][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.12-22.21.20:994][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.12-22.21.21:070][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.12-22.21.21:150][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.12-22.21.21:227][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.12-22.21.21:302][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.12-22.21.21:329][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.12-22.21.21:535][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-22.21.21:611][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.12-22.21.21:805][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.12-22.21.21:805][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.12-22.21.21:866][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.12-22.21.21:866][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.12-22.21.21:900][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.12-22.21.21:927][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.12-22.21.21:959][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.12-22.21.22:027][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.12-22.21.22:050][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.12-22.21.22:050][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.12-22.21.22:743][  0]LogXGEController: Cleaning working directory: C:/Users/mytho/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.12-22.21.22:744][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.12-22.21.22:744][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.12-22.21.22:744][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.12-22.21.28:495][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.12-22.21.29:737][  0]LogDerivedDataCache: Loaded boot cache 1.24s 71MB C:/Users/mytho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.12-22.21.29:738][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mytho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.12-22.21.29:738][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mytho/Documents/Bjourn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.12-22.21.29:738][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.12-22.21.29:738][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mytho/Documents/Bjourn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.12-22.21.29:738][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.12-22.21.29:787][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.12-22.21.29:800][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mytho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.12-22.21.29:800][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.12-22.21.29:800][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.12-22.21.29:837][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.12-22.21.29:839][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.12-22.21.29:894][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.12-22.21.31:724][  0]LogAssetRegistry: FAssetRegistry took 0.0319 seconds to start up
+[2018.11.12-22.21.32:478][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.12-22.21.33:300][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.12-22.21.33:349][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.12-22.21.33:349][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.12-22.21.33:349][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.12-22.21.33:349][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.12-22.21.33:420][  0]LogNetVersion: Bjourn 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2510388400)
+[2018.11.12-22.21.35:581][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.185272 seconds
+[2018.11.12-22.21.35:591][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.12-22.21.35:591][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.12-22.21.35:591][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.12-22.21.58:478][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.12-22.21.58:530][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.12-22.21.59:971][  0]SourceControl: Source control is disabled
+[2018.11.12-22.22.04:477][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.12-22.22.04:613][  0]LogOcInput: OculusInput pre-init called
+[2018.11.12-22.22.04:872][  0]LogEngine: Initializing Engine...
+[2018.11.12-22.22.04:873][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.12-22.22.04:875][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.12-22.22.04:875][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.12-22.22.04:875][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.12-22.22.04:875][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.12-22.22.05:673][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.12-22.22.05:771][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.12-22.22.05:795][  0]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-22.22.05:825][  0]LogInit: FAudioDevice initialized.
+[2018.11.12-22.22.05:825][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.12-22.22.06:542][  0]LogDerivedDataCache: Saved boot cache 0.72s 71MB C:/Users/mytho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.12-22.22.06:558][  0]LogInit: Texture streaming: Enabled
+[2018.11.12-22.22.06:702][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.12-22.22.06:778][  0]LogInit: Transaction tracking system initialized
+[2018.11.12-22.22.07:051][  0]BlueprintLog: New page: Editor Load
+[2018.11.12-22.22.10:520][  0]LocalizationService: Localization service is disabled
+[2018.11.12-22.22.13:564][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.12-22.22.13:564][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.12-22.22.13:565][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.12-22.22.13:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.12-22.22.13:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.12-22.22.13:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.12-22.22.13:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.12-22.22.14:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Content/' took 0.06s
+[2018.11.12-22.22.16:575][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.12-22.22.16:576][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.12-22.22.16:576][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.12-22.22.16:698][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 121.833ms to complete.
+[2018.11.12-22.22.16:699][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.123
+[2018.11.12-22.22.17:208][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.22.17:223][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.22.17:238][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.22.17:253][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.22.17:385][  0]LogCollectionManager: Loaded 0 collections in 0.004625 seconds
+[2018.11.12-22.22.17:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Saved/Collections/' took 0.01s
+[2018.11.12-22.22.17:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Content/Developers/mytho/Collections/' took 0.01s
+[2018.11.12-22.22.17:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mytho/Documents/Bjourn/Content/Collections/' took 0.01s
+[2018.11.12-22.22.17:504][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.12-22.22.17:524][  0]LogContentBrowser: Native class hierarchy populated in 0.0192 seconds. Added 2572 classes and 603 folders.
+[2018.11.12-22.22.17:772][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.12-22.22.22:887][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.12-22.22.23:012][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.11.12-22.22.23:377][  0]LogSlate: Took 0.142627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.12-22.22.23:411][  0]LogSlate: Took 0.027445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.12-22.22.23:433][  0]LogSlate: Took 0.018238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.12-22.22.23:708][  0]LogRenderer: Reallocating scene render targets to support 828x328 Format 9 NumSamples 1 (Frame:1).
+[2018.11.12-22.22.24:176][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.12-22.22.24:176][  0]LogLoad: (Engine Initialization) Total time: 98.19 seconds
+[2018.11.12-22.22.24:176][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.12-22.22.24:286][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.11.12-22.22.24:452][  0]LogSlate: Took 0.066523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.12-22.22.24:751][  4]LogAssetRegistry: Asset discovery search completed in 53.0502 seconds
+[2018.11.12-22.22.24:755][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.12-22.22.24:755][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2018.11.12-22.23.40:122][496]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.12-22.23.40:145][496]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.12-22.23.40:377][496]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mytho\Downloads\Right Hook.fbx)
+[2018.11.12-22.23.40:404][496]LogFbx: Loading FBX Scene from C:\Users\mytho\Downloads\Right Hook.fbx
+[2018.11.12-22.23.40:444][496]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.12-22.23.42:014][496]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.12-22.23.42:080][496]LogFbx: SortedLinks :(0) Hips
+[2018.11.12-22.23.42:080][496]LogFbx: SortedLinks :(1) Spine
+[2018.11.12-22.23.42:080][496]LogFbx: SortedLinks :(2) Spine1
+[2018.11.12-22.23.42:080][496]LogFbx: SortedLinks :(3) Spine2
+[2018.11.12-22.23.42:080][496]LogFbx: SortedLinks :(4) Neck
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(5) Head
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(7) LeftEye
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(8) RightEye
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(10) LeftArm
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(12) LeftHand
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(33) RightShoulder
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(34) RightArm
+[2018.11.12-22.23.42:081][496]LogFbx: SortedLinks :(35) RightForeArm
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(36) RightHand
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(58) RightLeg
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(59) RightFoot
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(60) RightToeBase
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(61) RightToe_End
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(63) LeftLeg
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(64) LeftFoot
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.11.12-22.23.42:082][496]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.11.12-22.23.42:084][496]LogFbx: Parsing AnimStack mixamo.com
+[2018.11.12-22.23.42:088][496]LogLinker: Can't find file '/Game/Imports/Characters/Player/Right_Hook'
+[2018.11.12-22.23.42:088][496]LogLinker: Can't find file '/Game/Imports/Characters/Player/Right_Hook'
+[2018.11.12-22.23.42:388][496]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Imports/Characters/Player/Right_Hook.Right_Hook
+[2018.11.12-22.23.42:389][496]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Right_Hook) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.12-22.23.46:916][766]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Imports/Characters/Player/Right_Hook.Right_Hook
+[2018.11.12-22.23.47:002][766]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.11.12-22.23.47:790][766]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.12-22.23.47:795][766]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.11.12-22.23.47:904][766]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.12-22.23.48:570][766]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.11.12-22.23.48:577][766]LogRenderer: Reallocating scene render targets to support 828x364 Format 9 NumSamples 1 (Frame:1).
+[2018.11.12-22.23.48:577][766]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.12-22.24.01:002][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-22.24.01:093][696]LogSlate: Window 'Right_Hook*' being destroyed
+[2018.11.12-22.24.04:732][887]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.12-22.33.57:100][ 13]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mytho\Desktop\Imports\Player\Right Hook.fbx)
+[2018.11.12-22.33.57:120][ 13]LogFbx: Loading FBX Scene from C:\Users\mytho\Desktop\Imports\Player\Right Hook.fbx
+[2018.11.12-22.33.57:164][ 13]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.12-22.33.58:386][ 13]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.12-22.33.58:511][ 13]LogFbx: SortedLinks :(0) Hips
+[2018.11.12-22.33.58:511][ 13]LogFbx: SortedLinks :(1) Spine
+[2018.11.12-22.33.58:511][ 13]LogFbx: SortedLinks :(2) Spine1
+[2018.11.12-22.33.58:511][ 13]LogFbx: SortedLinks :(3) Spine2
+[2018.11.12-22.33.58:511][ 13]LogFbx: SortedLinks :(4) Neck
+[2018.11.12-22.33.58:511][ 13]LogFbx: SortedLinks :(5) Head
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(7) RightEye
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(8) LeftEye
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(10) LeftArm
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(12) LeftHand
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(33) RightShoulder
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(34) RightArm
+[2018.11.12-22.33.58:512][ 13]LogFbx: SortedLinks :(35) RightForeArm
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(36) RightHand
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(58) RightLeg
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(59) RightFoot
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(60) RightToeBase
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(61) RightToe_End
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(63) LeftLeg
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(64) LeftFoot
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.11.12-22.33.58:513][ 13]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.11.12-22.33.58:514][ 13]LogFbx: Parsing AnimStack mixamo.com
+[2018.11.12-22.33.58:808][ 13]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Imports/Characters/Player/Right_Hook.Right_Hook
+[2018.11.12-22.33.58:809][ 13]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Right_Hook) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.12-22.34.00:349][171]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Imports/Characters/Player/Right_Hook.Right_Hook
+[2018.11.12-22.34.00:359][171]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.12-22.34.00:472][171]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.12-22.34.01:149][171]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.12-22.34.12:377][964]LogSlate: Window 'Right_Hook*' being destroyed
+[2018.11.12-22.34.41:872][312]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Imports/Characters/Player/AnimBP.AnimBP
+[2018.11.12-22.34.41:908][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.12-22.34.43:052][312]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2018.11.12-22.34.44:449][312]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.12-22.34.45:089][312]LogSlate: Took 0.021633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.12-22.34.45:429][312]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.12-22.34.45:482][313]LogSlate: Took 0.020757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.12-22.35.29:511][613]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.12-22.35.29:866][616]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bjourn
+[2018.11.12-22.35.29:866][616]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.12-22.35.29:866][616]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.11.12-22.35.29:866][616]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.12-22.35.29:927][617]LogTemp: BranchPath = DESKTOP-RPLIV76/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-RPLIV76/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.11.12-22.35.30:414][644]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\mytho\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.12-22.36.42:987][863]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.12-22.36.49:494][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:495][590]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Story_Scroll/Page_Structure.Page_Structure Referenced by Pages
+[2018.11.12-22.36.49:495][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Statistics.uasset.
+[2018.11.12-22.36.49:495][590]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Statistics : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1
+[2018.11.12-22.36.49:536][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6'
+[2018.11.12-22.36.49:537][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Statistics.uasset.
+[2018.11.12-22.36.49:537][590]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Statistics : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6
+[2018.11.12-22.36.49:537][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:538][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Statistics.uasset.
+[2018.11.12-22.36.49:539][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6'
+[2018.11.12-22.36.49:539][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Story_Scroll/Pages/Statistics.uasset.
+[2018.11.12-22.36.49:655][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:656][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:656][590]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/BjournGameState : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1
+[2018.11.12-22.36.49:656][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6'
+[2018.11.12-22.36.49:656][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:656][590]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/BjournGameState : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6
+[2018.11.12-22.36.49:657][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:657][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:657][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6'
+[2018.11.12-22.36.49:657][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:660][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6'
+[2018.11.12-22.36.49:660][590]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6.vel6 Referenced by Image_205
+[2018.11.12-22.36.49:661][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/vel6' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:661][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:661][590]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1.nail1 Referenced by Image_236
+[2018.11.12-22.36.49:661][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:662][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:662][590]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1.nail1 Referenced by Image_237
+[2018.11.12-22.36.49:662][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:663][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:663][590]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1.nail1 Referenced by Image_238
+[2018.11.12-22.36.49:663][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:664][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:664][590]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1.nail1 Referenced by Image_239
+[2018.11.12-22.36.49:664][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:665][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:665][590]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1.nail1 Referenced by Image_240
+[2018.11.12-22.36.49:665][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.49:666][590]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1'
+[2018.11.12-22.36.49:666][590]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1.nail1 Referenced by Image_241
+[2018.11.12-22.36.49:666][590]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Story_Scroll/UI_Pictures/nail1' while loading ../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/BjournGameState.uasset.
+[2018.11.12-22.36.51:022][590]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Player_Character.Player_Character
+[2018.11.12-22.40.02:812][524]BlueprintLog: New page: Compile AnimBP
+[2018.11.12-22.40.02:884][524]LogBlueprint: Warning: [Compiler AnimBP] Basic Movement to Punch  will never be taken, please connect something to  Can Enter Transition
+[2018.11.12-22.40.03:225][524]LogBlueprint: Warning: [Compiler AnimBP] [1157.24] Compile of AnimBP successful, but with 1 Warning(s) [in 412 ms] (/Game/Imports/Characters/Player/AnimBP.AnimBP)
+[2018.11.12-22.44.02:298][409]BlueprintLog: New page: Compile Player_Character
+[2018.11.12-22.45.50:752][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Characters/Player/AnimBP" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/AnimBP.uasset" SILENT=true
+[2018.11.12-22.45.50:941][918]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/AnimBP6EAC789B46299AAC001D77AAD9E70D5C.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/AnimBP.uasset'
+[2018.11.12-22.45.51:457][965]BlueprintLog: New page: Compile AnimBP
+[2018.11.12-22.47.20:896][275]LogMaterial: Display: Missing cached shader map for material tree_tree_trunk, compiling. 
+[2018.11.12-22.47.20:898][275]LogMaterial: Warning: C:\Users\mytho\Documents\Bjourn\Content\Imports\Environment\Trees\Leafed\tree_tree_trunk.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.12-22.47.20:898][275]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/Imports/Environment/Trees/Leafed/TexturesCom_BarkPine0012_1_M_bump.TexturesCom_BarkPine0012_1_M_bump
+[2018.11.12-22.47.21:133][275]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-22.47.21:582][275]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area
+[2018.11.12-22.47.45:356][275]LogSlate: Window 'Save Content' being destroyed
+[2018.11.12-22.47.45:820][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Characters/Player/Right_Hook" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/Right_Hook.uasset" SILENT=true
+[2018.11.12-22.47.45:851][275]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/Right_Hook4DA247384345DDD23C0B0A8DC5C5C3C2.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/Right_Hook.uasset'
+[2018.11.12-22.47.46:419][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player_Character" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Player_Character.uasset" SILENT=true
+[2018.11.12-22.47.46:645][275]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/Player_CharacterAD69825E427E0D328E151D9DBA354023.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Player_Character.uasset'
+[2018.11.12-22.47.46:651][275]Cmd: MAP LOAD FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Maps/Starting_Area.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.12-22.47.46:651][275]LightingResults: New page: Lighting Build
+[2018.11.12-22.47.46:676][275]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2018.11.12-22.47.46:678][275]LoadErrors: New page: Loading map: Starting_Area.umap
+[2018.11.12-22.47.46:679][275]MapCheck: New page: Map Check
+[2018.11.12-22.47.46:679][275]LightingResults: New page: Lighting Build
+[2018.11.12-22.47.50:181][275]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.12-22.47.50:382][275]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.12-22.47.53:044][275]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,660.556ms to complete.
+[2018.11.12-22.47.53:046][275]LogFileHelpers: Loading map 'Starting_Area' took 6.395
+[2018.11.12-22.47.58:639][500]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-22.47.58:705][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.47.58:705][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-22.47.58:719][500]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 10:47:58 AM)
+[2018.11.12-22.47.58:719][500]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-22.47.58:959][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.240027s)
+[2018.11.12-22.47.58:961][500]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-22.47.58:961][500]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2018.11.12-22.47.58:961][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.241639s)
+[2018.11.12-22.47.59:046][500]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-22.47.59:061][500]LogInit: FAudioDevice initialized.
+[2018.11.12-22.47.59:107][500]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-22.47.59:149][500]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-16.47.59
+[2018.11.12-22.47.59:154][500]LogWorld: Bringing up level for play took: 0.045481
+[2018.11.12-22.47.59:200][500]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.11.12-22.47.59:213][500]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.396
+[2018.11.12-22.47.59:213][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.48.06:932][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.48.06:932][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.48.07:005][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-22.48.07:006][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.48.07:102][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.48.07:156][110]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.11.12-22.48.08:382][177]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-22.48.26:527][120]BlueprintLog: New page: Compile Player_Character
+[2018.11.12-22.48.27:934][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player_Character" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Player_Character.uasset" SILENT=true
+[2018.11.12-22.48.28:139][167]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/Player_Character672055454903905BEC7A92A1ED8BB323.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Player_Character.uasset'
+[2018.11.12-22.48.44:544][ 87]LogSlate: Took 0.015169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.11.12-22.48.46:286][182]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-22.48.46:359][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.48.46:360][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-22.48.46:360][182]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 10:48:46 AM)
+[2018.11.12-22.48.46:360][182]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-22.48.46:468][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.107818s)
+[2018.11.12-22.48.46:470][182]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-22.48.46:470][182]LogPlayLevel: PIE: World Init took: (0.001743s)
+[2018.11.12-22.48.46:471][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.110416s)
+[2018.11.12-22.48.46:563][182]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-22.48.46:576][182]LogInit: FAudioDevice initialized.
+[2018.11.12-22.48.46:614][182]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-22.48.46:649][182]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-16.48.46
+[2018.11.12-22.48.46:655][182]LogWorld: Bringing up level for play took: 0.038968
+[2018.11.12-22.48.46:678][182]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area -0.138
+[2018.11.12-22.48.46:679][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.48.54:404][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.48.54:406][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.48.54:463][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-22.48.54:464][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.48.54:570][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.48.54:642][750]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.11.12-22.48.56:054][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-22.51.59:231][958]BlueprintLog: New page: Compile Player_Character
+[2018.11.12-22.52.02:540][218]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-22.52.02:612][218]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.52.02:613][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-22.52.02:613][218]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 10:52:02 AM)
+[2018.11.12-22.52.02:614][218]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-22.52.02:717][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102584s)
+[2018.11.12-22.52.02:719][218]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-22.52.02:719][218]LogPlayLevel: PIE: World Init took: (0.002116s)
+[2018.11.12-22.52.02:720][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.105692s)
+[2018.11.12-22.52.02:813][218]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-22.52.02:827][218]LogInit: FAudioDevice initialized.
+[2018.11.12-22.52.02:864][218]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-22.52.02:901][218]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-16.52.02
+[2018.11.12-22.52.02:906][218]LogWorld: Bringing up level for play took: 0.040636
+[2018.11.12-22.52.02:931][218]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.115
+[2018.11.12-22.52.02:932][218]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.52.03:381][240]LogBlueprintUserMessages: [Player_Character_C_0] true
+[2018.11.12-22.52.05:465][415]LogBlueprintUserMessages: [Player_Character_C_0] true
+[2018.11.12-22.52.11:505][ 18]LogBlueprintUserMessages: [Player_Character_C_0] true
+[2018.11.12-22.52.22:094][ 98]LogBlueprintUserMessages: [Player_Character_C_0] true
+[2018.11.12-22.52.23:987][291]LogBlueprintUserMessages: [Player_Character_C_0] true
+[2018.11.12-22.52.29:029][802]LogBlueprintUserMessages: [Player_Character_C_0] true
+[2018.11.12-22.52.30:002][901]LogBlueprintUserMessages: [Player_Character_C_0] true
+[2018.11.12-22.52.31:013][  4]LogBlueprintUserMessages: [Player_Character_C_0] true
+[2018.11.12-22.52.32:419][147]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.52.32:420][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.52.32:476][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-22.52.32:476][147]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.52.32:571][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.52.32:619][148]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.11.12-22.52.33:397][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-22.53.43:985][366]BlueprintLog: New page: Compile Player_Character
+[2018.11.12-22.53.46:035][487]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-22.53.46:102][487]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.53.46:103][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-22.53.46:103][487]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 10:53:46 AM)
+[2018.11.12-22.53.46:104][487]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-22.53.46:200][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096261s)
+[2018.11.12-22.53.46:202][487]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-22.53.46:202][487]LogPlayLevel: PIE: World Init took: (0.001870s)
+[2018.11.12-22.53.46:203][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.099077s)
+[2018.11.12-22.53.46:296][487]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-22.53.46:330][487]LogInit: FAudioDevice initialized.
+[2018.11.12-22.53.46:374][487]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-22.53.46:417][487]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-16.53.46
+[2018.11.12-22.53.46:423][487]LogWorld: Bringing up level for play took: 0.047374
+[2018.11.12-22.53.46:448][487]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area -0.368
+[2018.11.12-22.53.46:449][487]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.53.52:473][969]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.53.52:474][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.53.52:532][969]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-22.53.52:532][969]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.53.52:608][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.53.52:656][970]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.11.12-22.53.53:198][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-22.54.36:865][968]BlueprintLog: New page: Compile Player_Character
+[2018.11.12-22.54.38:908][ 95]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-22.54.38:977][ 95]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.54.38:978][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-22.54.38:978][ 95]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 10:54:38 AM)
+[2018.11.12-22.54.38:978][ 95]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-22.54.39:114][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134984s)
+[2018.11.12-22.54.39:115][ 95]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-22.54.39:115][ 95]LogPlayLevel: PIE: World Init took: (0.001457s)
+[2018.11.12-22.54.39:116][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.137539s)
+[2018.11.12-22.54.39:203][ 95]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-22.54.39:216][ 95]LogInit: FAudioDevice initialized.
+[2018.11.12-22.54.39:254][ 95]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-22.54.39:288][ 95]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-16.54.39
+[2018.11.12-22.54.39:293][ 95]LogWorld: Bringing up level for play took: 0.037898
+[2018.11.12-22.54.39:317][ 95]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.502
+[2018.11.12-22.54.39:318][ 95]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.54.47:544][830]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.54.47:546][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.54.47:608][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-22.54.47:609][830]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.54.47:693][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.54.47:743][831]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.11.12-22.54.48:671][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-22.56.09:977][809]BlueprintLog: New page: Compile Player_Character
+[2018.11.12-22.56.11:349][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Player_Character" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Player_Character.uasset" SILENT=true
+[2018.11.12-22.56.11:569][844]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/Player_Character125A5DCD40B0ACD329A4A2BB4E299655.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/Player_Character.uasset'
+[2018.11.12-22.56.12:642][931]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-22.56.12:714][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.56.12:714][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-22.56.12:715][931]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 10:56:12 AM)
+[2018.11.12-22.56.12:715][931]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-22.56.12:820][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104332s)
+[2018.11.12-22.56.12:821][931]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-22.56.12:821][931]LogPlayLevel: PIE: World Init took: (0.001456s)
+[2018.11.12-22.56.12:822][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.106607s)
+[2018.11.12-22.56.12:921][931]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-22.56.12:936][931]LogInit: FAudioDevice initialized.
+[2018.11.12-22.56.12:973][931]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-22.56.13:006][931]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-16.56.13
+[2018.11.12-22.56.13:011][931]LogWorld: Bringing up level for play took: 0.036636
+[2018.11.12-22.56.13:036][931]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.22
+[2018.11.12-22.56.13:036][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.56.32:015][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.56.32:017][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.56.32:082][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-22.56.32:083][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-22.56.32:190][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-22.56.32:239][427]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.11.12-22.56.33:305][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-22.57.54:702][554]BlueprintLog: New page: Compile AnimBP
+[2018.11.12-22.57.56:962][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Characters/Player/AnimBP" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/AnimBP.uasset" SILENT=true
+[2018.11.12-22.57.57:259][724]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/AnimBPC96D8A5947AB4740282CC09D28AC665F.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/AnimBP.uasset'
+[2018.11.12-23.01.03:281][120]BlueprintLog: New page: Compile AnimBP
+[2018.11.12-23.02.20:317][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Characters/Player/AnimBP" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/AnimBP.uasset" SILENT=true
+[2018.11.12-23.02.20:517][646]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/AnimBPC9C2296547C46B37C5B9B7A0F085B480.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/AnimBP.uasset'
+[2018.11.12-23.02.21:133][701]BlueprintLog: New page: Compile AnimBP
+[2018.11.12-23.03.57:961][620]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mytho\Desktop\Imports\Player\Left Upper.fbx)
+[2018.11.12-23.03.57:986][620]LogFbx: Loading FBX Scene from C:\Users\mytho\Desktop\Imports\Player\Left Upper.fbx
+[2018.11.12-23.03.58:034][620]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.12-23.03.59:138][620]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(0) Hips
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(1) Spine
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(2) Spine1
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(3) Spine2
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(4) Neck
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(5) Head
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(7) RightEye
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(8) LeftEye
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(10) LeftArm
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(12) LeftHand
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.11.12-23.03.59:271][620]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(33) RightShoulder
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(34) RightArm
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(35) RightForeArm
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(36) RightHand
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.11.12-23.03.59:272][620]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.11.12-23.03.59:273][620]LogFbx: SortedLinks :(58) RightLeg
+[2018.11.12-23.03.59:273][620]LogFbx: SortedLinks :(59) RightFoot
+[2018.11.12-23.03.59:273][620]LogFbx: SortedLinks :(60) RightToeBase
+[2018.11.12-23.03.59:273][620]LogFbx: SortedLinks :(61) RightToe_End
+[2018.11.12-23.03.59:273][620]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.11.12-23.03.59:273][620]LogFbx: SortedLinks :(63) LeftLeg
+[2018.11.12-23.03.59:273][620]LogFbx: SortedLinks :(64) LeftFoot
+[2018.11.12-23.03.59:273][620]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.11.12-23.03.59:273][620]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.11.12-23.03.59:274][620]LogFbx: Parsing AnimStack mixamo.com
+[2018.11.12-23.03.59:281][620]LogLinker: Can't find file '/Game/Imports/Characters/Player/Left_Upper'
+[2018.11.12-23.03.59:281][620]LogLinker: Can't find file '/Game/Imports/Characters/Player/Left_Upper'
+[2018.11.12-23.03.59:642][620]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Imports/Characters/Player/Left_Upper.Left_Upper
+[2018.11.12-23.03.59:643][620]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Left_Upper) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.12-23.04.07:710][277]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Imports/Characters/Player/Left_Upper.Left_Upper
+[2018.11.12-23.04.20:213][471]BlueprintLog: New page: Compile AnimBP
+[2018.11.12-23.04.20:292][471]LogBlueprint: Warning: [Compiler AnimBP] Left to Basic Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.11.12-23.04.20:690][471]LogBlueprint: Warning: [Compiler AnimBP] [2614.70] Compile of AnimBP successful, but with 1 Warning(s) [in 476 ms] (/Game/Imports/Characters/Player/AnimBP.AnimBP)
+[2018.11.12-23.04.48:471][154]BlueprintLog: New page: Compile AnimBP
+[2018.11.12-23.05.33:488][772]BlueprintLog: New page: Compile AnimBP
+[2018.11.12-23.05.35:476][863]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-23.05.35:544][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.05.35:544][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-23.05.35:544][863]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:05:35 AM)
+[2018.11.12-23.05.35:544][863]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.05.35:635][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091171s)
+[2018.11.12-23.05.35:637][863]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.05.35:638][863]LogPlayLevel: PIE: World Init took: (0.002060s)
+[2018.11.12-23.05.35:638][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.093524s)
+[2018.11.12-23.05.35:752][863]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.05.35:766][863]LogInit: FAudioDevice initialized.
+[2018.11.12-23.05.35:799][863]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.05.35:837][863]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.05.35
+[2018.11.12-23.05.35:841][863]LogWorld: Bringing up level for play took: 0.041479
+[2018.11.12-23.05.35:868][863]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 1.051
+[2018.11.12-23.05.35:868][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.06.31:787][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-23.06.36:138][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.06.36:139][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.06.36:195][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.06.36:195][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.06.36:282][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.06.36:328][743]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.11.12-23.06.40:343][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-23.06.46:044][550]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/HUD/HUD.HUD
+[2018.11.12-23.06.50:080][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Characters/Player/Left_Upper" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/Left_Upper.uasset" SILENT=true
+[2018.11.12-23.06.50:108][780]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/Left_Upper7DAA86904DFC1ECC31AD73B8F095FA18.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/Left_Upper.uasset'
+[2018.11.12-23.06.54:296][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Characters/Player/AnimBP" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/AnimBP.uasset" SILENT=true
+[2018.11.12-23.06.54:514][ 11]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/AnimBPACEEB3D94F543A2A0A9650BA53A13EDC.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/Imports/Characters/Player/AnimBP.uasset'
+[2018.11.12-23.13.15:623][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\mytho\Pictures\Picture Cache\crowncon.png)
+[2018.11.12-23.13.15:676][272]LogTexture: Display: Building textures: crowncon (AutoDXT, 512X512)
+[2018.11.12-23.13.20:947][534]LogSlate: Took 0.058606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.11.12-23.13.22:479][592]LogSlate: Window 'HUD*' being destroyed
+[2018.11.12-23.15.06:173][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD/HUD" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset" SILENT=true
+[2018.11.12-23.15.06:234][948]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/HUDD728B2FC44425CBC7FABE5A6715FDF45.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset'
+[2018.11.12-23.15.06:604][980]BlueprintLog: New page: Compile HUD
+[2018.11.12-23.15.08:589][141]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-23.15.08:661][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.15.08:661][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-23.15.08:661][141]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:15:08 AM)
+[2018.11.12-23.15.08:661][141]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.15.08:749][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087414s)
+[2018.11.12-23.15.08:751][141]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.15.08:751][141]LogPlayLevel: PIE: World Init took: (0.002067s)
+[2018.11.12-23.15.08:751][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.089881s)
+[2018.11.12-23.15.08:845][141]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.15.08:859][141]LogInit: FAudioDevice initialized.
+[2018.11.12-23.15.08:897][141]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.15.08:933][141]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.15.08
+[2018.11.12-23.15.08:938][141]LogWorld: Bringing up level for play took: 0.040107
+[2018.11.12-23.15.08:963][141]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.147
+[2018.11.12-23.15.08:963][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.15.53:624][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.15.53:625][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.15.53:706][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.15.53:706][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.15.53:811][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.15.53:881][624]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.11.12-23.15.54:842][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-23.17.39:900][212]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_19:HUD_C_6.WidgetTree_0.HorizontalBox_32 or HorizontalBox /Game/ThirdPersonBP/Blueprints/HUD/HUD.HUD:WidgetTree.HorizontalBox_32
+[2018.11.12-23.17.39:900][212]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_19:HUD_C_6.WidgetTree_0.HorizontalBox_32 or HorizontalBox /Engine/Transient.World_19:HUD_C_8.WidgetTree_0.HorizontalBox_32
+[2018.11.12-23.17.39:900][212]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_19:HUD_C_6.WidgetTree_0.HorizontalBox_32 or HorizontalBox /Engine/Transient.World_19:HUD_C_7.WidgetTree_0.HorizontalBox_32
+[2018.11.12-23.17.39:900][212]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_19:HUD_C_6.WidgetTree_0.HorizontalBox_32 or HorizontalBox /Engine/Transient.World_19:HUD_C_3.WidgetTree_0.HorizontalBox_32
+[2018.11.12-23.17.39:900][212]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_19:HUD_C_6.WidgetTree_0.HorizontalBox_32 or HorizontalBox /Engine/Transient.World_19:HUD_C_4.WidgetTree_0.HorizontalBox_32
+[2018.11.12-23.17.39:900][212]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_19:HUD_C_6.WidgetTree_0.HorizontalBox_32 or HorizontalBox /Engine/Transient.REINST_HUD_C_43:WidgetTree.HorizontalBox_32
+[2018.11.12-23.17.39:900][212]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_19:HUD_C_6.WidgetTree_0.HorizontalBox_32 or HorizontalBox /Game/ThirdPersonBP/Blueprints/HUD/HUD.HUD_C:WidgetTree.HorizontalBox_32
+[2018.11.12-23.17.39:901][212]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_19:HUD_C_7.WidgetTree_0.HorizontalBox_32.HorizontalBoxSlot_7 or HorizontalBoxSlot /Game/ThirdPersonBP/Blueprints/HUD/HUD.HUD:WidgetTree.HorizontalBox_32.HorizontalBoxSlot_7
+[2018.11.12-23.17.39:901][212]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_19:HUD_C_7.WidgetTree_0.HorizontalBox_32.HorizontalBoxSlot_7 or HorizontalBoxSlot /Engine/Transient.World_19:HUD_C_8.WidgetTree_0.HorizontalBox_32.HorizontalBoxSlot_7
+[2018.11.12-23.17.39:901][212]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Engine/Transient.World_19:HUD_C_7.WidgetTree_0.HorizontalBox_32.HorizontalBoxSlot_7) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2018.11.12-23.17.39:901][212]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_32.HorizontalBoxSlot_7"''
+[2018.11.12-23.17.40:162][222]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/UMG/Editor: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/UMG/Editor' is outside repository
+[2018.11.12-23.20.42:712][657]BlueprintLog: New page: Compile HUD
+[2018.11.12-23.20.43:530][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD/HUD" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset" SILENT=true
+[2018.11.12-23.20.43:594][686]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/HUDC1982C094928471C1DB6C7963B51944C.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset'
+[2018.11.12-23.20.44:867][755]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-23.20.44:938][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.20.44:938][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-23.20.44:938][755]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:20:44 AM)
+[2018.11.12-23.20.44:939][755]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.20.45:022][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083674s)
+[2018.11.12-23.20.45:023][755]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.20.45:024][755]LogPlayLevel: PIE: World Init took: (0.001508s)
+[2018.11.12-23.20.45:024][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.085463s)
+[2018.11.12-23.20.45:111][755]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.20.45:124][755]LogInit: FAudioDevice initialized.
+[2018.11.12-23.20.45:156][755]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.20.45:191][755]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.20.45
+[2018.11.12-23.20.45:195][755]LogWorld: Bringing up level for play took: 0.037729
+[2018.11.12-23.20.45:218][755]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.402
+[2018.11.12-23.20.45:219][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.18:960][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD/HUD" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset" SILENT=true
+[2018.11.12-23.21.19:012][292]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/HUD840CA95B496C460AD075119A37D4C039.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset'
+[2018.11.12-23.21.22:010][507]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.22:011][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.21.22:067][507]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.21.22:067][507]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.22:142][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.21.22:172][508]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.11.12-23.21.22:738][548]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-23.21.22:805][548]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.22:805][548]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.12-23.21.22:817][548]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2018.11.12-23.21.23:259][548]LogPlayLevel: PlayLevel: Blueprint regeneration took 453 ms (1 blueprints)
+[2018.11.12-23.21.23:259][548]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:21:23 AM)
+[2018.11.12-23.21.23:259][548]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.21.23:347][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088170s)
+[2018.11.12-23.21.23:348][548]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.21.23:349][548]LogPlayLevel: PIE: World Init took: (0.001480s)
+[2018.11.12-23.21.23:349][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.089946s)
+[2018.11.12-23.21.23:447][548]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.21.23:460][548]LogInit: FAudioDevice initialized.
+[2018.11.12-23.21.23:498][548]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.21.23:534][548]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.21.23
+[2018.11.12-23.21.23:538][548]LogWorld: Bringing up level for play took: 0.039064
+[2018.11.12-23.21.23:562][548]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.745
+[2018.11.12-23.21.23:562][548]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.27:594][830]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.27:594][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.21.27:659][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.21.27:659][830]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.27:744][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.21.27:774][831]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.11.12-23.21.33:338][202]LogSlate: Window 'Save Content' being destroyed
+[2018.11.12-23.21.33:343][202]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2018.11.12-23.21.33:343][202]PIE: Warning: PIE failed because map save was canceled
+[2018.11.12-23.21.39:707][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.39:707][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-23.21.39:708][848]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:21:39 AM)
+[2018.11.12-23.21.39:708][848]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.21.39:789][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081201s)
+[2018.11.12-23.21.39:790][848]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.21.39:790][848]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2018.11.12-23.21.39:790][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.082542s)
+[2018.11.12-23.21.39:889][848]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.21.39:902][848]LogInit: FAudioDevice initialized.
+[2018.11.12-23.21.39:913][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.21.39:958][848]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.21.39:999][848]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.21.39
+[2018.11.12-23.21.40:004][848]LogWorld: Bringing up level for play took: 0.045189
+[2018.11.12-23.21.40:031][848]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 1.215
+[2018.11.12-23.21.40:032][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.40:077][848]LogRenderer: Reallocating scene render targets to support 916x536 Format 9 NumSamples 1 (Frame:1).
+[2018.11.12-23.21.48:990][416]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.48:992][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.21.49:062][416]LogSlate: Window 'Bjourn Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.12-23.21.49:108][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.21.49:109][416]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.21.49:251][417]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.11.12-23.22.04:888][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD/HUD" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset" SILENT=true
+[2018.11.12-23.22.04:945][910]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/HUDBBDFFF704F1785564AC6DC83B16BBB17.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset'
+[2018.11.12-23.22.05:651][972]BlueprintLog: New page: Compile HUD
+[2018.11.12-23.22.07:143][ 66]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.12-23.22.07:205][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.22.07:205][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-23.22.07:206][ 66]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:22:07 AM)
+[2018.11.12-23.22.07:206][ 66]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.22.07:291][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085216s)
+[2018.11.12-23.22.07:293][ 66]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.22.07:293][ 66]LogPlayLevel: PIE: World Init took: (0.002163s)
+[2018.11.12-23.22.07:293][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.087680s)
+[2018.11.12-23.22.07:379][ 66]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.22.07:392][ 66]LogInit: FAudioDevice initialized.
+[2018.11.12-23.22.07:402][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.22.07:451][ 66]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.22.07:490][ 66]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.22.07
+[2018.11.12-23.22.07:495][ 66]LogWorld: Bringing up level for play took: 0.043555
+[2018.11.12-23.22.07:524][ 66]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.707
+[2018.11.12-23.22.07:524][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.22.09:827][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.22.09:828][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.22.09:899][190]LogSlate: Window 'Bjourn Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.12-23.22.09:949][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.22.09:950][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.22.10:066][191]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.11.12-23.22.17:581][894]BlueprintLog: New page: Compile HUD
+[2018.11.12-23.22.19:010][989]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.12-23.22.19:074][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.22.19:075][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-23.22.19:075][989]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:22:19 AM)
+[2018.11.12-23.22.19:075][989]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.22.19:158][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083438s)
+[2018.11.12-23.22.19:160][989]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.22.19:160][989]LogPlayLevel: PIE: World Init took: (0.001647s)
+[2018.11.12-23.22.19:160][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.085413s)
+[2018.11.12-23.22.19:232][989]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.22.19:246][989]LogInit: FAudioDevice initialized.
+[2018.11.12-23.22.19:257][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.22.19:304][989]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.22.19:343][989]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.22.19
+[2018.11.12-23.22.19:348][989]LogWorld: Bringing up level for play took: 0.042342
+[2018.11.12-23.22.19:376][989]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.561
+[2018.11.12-23.22.19:377][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.23.22:016][727]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.23.22:017][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.23.22:090][727]LogSlate: Window 'Bjourn Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.12-23.23.22:144][727]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.23.22:144][727]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.23.22:285][728]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.11.12-23.26.54:407][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD/HUD" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset" SILENT=true
+[2018.11.12-23.26.54:473][600]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/HUDB62CB1FB43D83730E7D0D9B715E91CB8.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset'
+[2018.11.12-23.26.55:134][663]BlueprintLog: New page: Compile HUD
+[2018.11.12-23.26.56:646][760]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.12-23.26.56:712][760]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.26.56:712][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-23.26.56:713][760]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:26:56 AM)
+[2018.11.12-23.26.56:713][760]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.26.56:799][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085844s)
+[2018.11.12-23.26.56:800][760]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.26.56:800][760]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2018.11.12-23.26.56:800][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.087636s)
+[2018.11.12-23.26.56:897][760]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.26.56:911][760]LogInit: FAudioDevice initialized.
+[2018.11.12-23.26.56:921][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.26.56:967][760]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.26.57:009][760]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.26.57
+[2018.11.12-23.26.57:013][760]LogWorld: Bringing up level for play took: 0.044376
+[2018.11.12-23.26.57:042][760]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.226
+[2018.11.12-23.26.57:043][760]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.27.09:291][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.27.09:292][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.27.09:358][472]LogSlate: Window 'Bjourn Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.12-23.27.09:407][472]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.27.09:407][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.27.09:531][473]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2018.11.12-23.28.42:096][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD/HUD" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset" SILENT=true
+[2018.11.12-23.28.42:152][873]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/HUD087925F24388F07FBF42979D6E84D9EA.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset'
+[2018.11.12-23.28.42:456][899]BlueprintLog: New page: Compile HUD
+[2018.11.12-23.28.44:211][ 24]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.12-23.28.44:275][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.28.44:275][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-23.28.44:275][ 24]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:28:44 AM)
+[2018.11.12-23.28.44:275][ 24]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.28.44:358][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082403s)
+[2018.11.12-23.28.44:359][ 24]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.28.44:359][ 24]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2018.11.12-23.28.44:359][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.083916s)
+[2018.11.12-23.28.44:437][ 24]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.28.44:449][ 24]LogInit: FAudioDevice initialized.
+[2018.11.12-23.28.44:459][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.28.44:505][ 24]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.28.44:543][ 24]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.28.44
+[2018.11.12-23.28.44:548][ 24]LogWorld: Bringing up level for play took: 0.042174
+[2018.11.12-23.28.44:576][ 24]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area -0.24
+[2018.11.12-23.28.44:577][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.29.08:565][710]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.29.08:567][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.29.08:635][710]LogSlate: Window 'Bjourn Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.12-23.29.08:684][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.29.08:684][710]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.29.08:822][711]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.11.12-23.29.18:220][574]BlueprintLog: New page: Compile HUD
+[2018.11.12-23.29.45:230][480]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.12-23.29.49:293][788]LogSlate: Window 'Save Content' being destroyed
+[2018.11.12-23.29.49:308][788]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.12-23.29.49:491][788]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.12-23.29.49:510][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD/crowncon" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/crowncon.uasset" SILENT=true
+[2018.11.12-23.29.49:550][788]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/crowncon2D0B5CC6491D3049A2BE2984F4D2DA94.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/crowncon.uasset'
+[2018.11.12-23.29.50:231][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD/HUD" FILE="../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset" SILENT=true
+[2018.11.12-23.29.50:282][788]LogSavePackage: Moving '../../../../../../Users/mytho/Documents/Bjourn/Saved/HUDBE13B00F4B08FA048697AFA1ED9DEC2C.tmp' to '../../../../../../Users/mytho/Documents/Bjourn/Content/ThirdPersonBP/Blueprints/HUD/HUD.uasset'
+[2018.11.12-23.29.51:983][923]MapCheck: New page: Map Check
+[2018.11.12-23.29.52:067][923]LightingResults: New page: Lighting Build - Nov 12, 2018, 11:29:52 AM
+[2018.11.12-23.29.52:176][923]LightingResults: Warning: InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.11.12-23.29.52:387][923]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.11.12-23.29.53:049][923]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.11.12-23.29.53:346][923]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.11.12-23.29.56:353][923]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2018.11.12-23.29.56:664][923]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags) in D:\Build\++UE4\Sync\Saved\CsTools\Engine\Source\Editor\SwarmInterface\DotNET\SwarmInterface.cs:line 2811
+[2018.11.12-23.30.01:850][923]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.11.12-23.30.01:850][923]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6592
+[2018.11.12-23.30.11:370][923]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.11.12-23.30.11:370][923]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.11.12-23.30.11:370][923]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.11.12-23.30.11:370][923]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.11.12-23.30.11:370][923]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.11.12-23.30.12:863][923]LogEditorBuildUtils: Build time 0:20
+[2018.11.12-23.30.13:048][926]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.11.12-23.30.13:069][926]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.12-23.30.13:069][926]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.11.12-23.30.13:080][926]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.11.12-23.30.13:166][928]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.12-23.30.13:253][931]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Bucket, compiling. 
+[2018.11.12-23.30.13:263][931]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Bucket, compiling. 
+[2018.11.12-23.30.13:306][932]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Well1, compiling. 
+[2018.11.12-23.30.13:315][932]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Well1, compiling. 
+[2018.11.12-23.30.13:371][933]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer rope, compiling. 
+[2018.11.12-23.30.13:408][933]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer rope, compiling. 
+[2018.11.12-23.30.13:427][934]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Roof, compiling. 
+[2018.11.12-23.30.13:438][934]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Roof, compiling. 
+[2018.11.12-23.30.13:458][935]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer aiAmbientOcclusion2, compiling. 
+[2018.11.12-23.30.13:480][935]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer aiAmbientOcclusion2, compiling. 
+[2018.11.12-23.30.19:677][939]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.12-23.30.19:677][939]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.12-23.33.39:935][206]Job is a success!
+[2018.11.12-23.33.40:958][207]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.045s
+[2018.11.12-23.33.40:958][207]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.11.12-23.33.40:958][207]LogVolumetricLightmapImport:      BrickData 415x5x5 = 0.4Mb
+[2018.11.12-23.33.40:959][207]LogVolumetricLightmapImport:      Bricks at Level
+[2018.11.12-23.33.40:959][207]LogVolumetricLightmapImport:          0: 1.2% covering 100.0% of volume
+[2018.11.12-23.33.40:959][207]LogVolumetricLightmapImport:          1: 14.5% covering 18.8% of volume
+[2018.11.12-23.33.40:959][207]LogVolumetricLightmapImport:          2: 84.3% covering 1.7% of volume
+[2018.11.12-23.33.42:429][207]LogMaterial: Warning: Material /Game/Imports/Props/CookFire/aiAmbientOcclusion2.aiAmbientOcclusion2 needed to have new flag set bUsedWithStaticLighting !
+[2018.11.12-23.33.42:431][207]LogMaterial: Display: Missing cached shader map for material aiAmbientOcclusion2, compiling. 
+[2018.11.12-23.33.42:551][207]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.12-23.33.42:551][207]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.12-23.33.42:551][207]LogMaterial: Warning: Material /Game/Imports/Props/Well/Bucket.Bucket needed to have new flag set bUsedWithStaticLighting !
+[2018.11.12-23.33.42:556][207]LogMaterial: Display: Missing cached shader map for material Bucket, compiling. 
+[2018.11.12-23.33.42:588][207]LogMaterial: Warning: Material /Game/Imports/Props/Well/Well1.Well1 needed to have new flag set bUsedWithStaticLighting !
+[2018.11.12-23.33.42:617][207]LogMaterial: Display: Missing cached shader map for material Well1, compiling. 
+[2018.11.12-23.33.42:657][207]LogMaterial: Warning: Material /Game/Imports/Props/Well/rope.rope needed to have new flag set bUsedWithStaticLighting !
+[2018.11.12-23.33.42:661][207]LogMaterial: Display: Missing cached shader map for material rope, compiling. 
+[2018.11.12-23.33.42:710][207]LogMaterial: Warning: Material /Game/Imports/Props/Well/Roof.Roof needed to have new flag set bUsedWithStaticLighting !
+[2018.11.12-23.33.42:714][207]LogMaterial: Display: Missing cached shader map for material Roof, compiling. 
+[2018.11.12-23.33.42:763][207]LogMaterial: Warning: Material /Game/Imports/Environment/Grass/single-grass/source/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2018.11.12-23.33.42:779][207]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.12-23.33.53:583][207]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2018.11.12-23.33.53:583][207]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2018.11.12-23.33.53:583][207]LogShaderCompilers: Display: Shaders left to compile 250
+[2018.11.12-23.33.53:584][207]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 128X64)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 256X128)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2018.11.12-23.33.53:585][207]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.11.12-23.33.53:586][207]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.11.12-23.33.53:586][207]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 128X64)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 128X128)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 128X128)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: SkyOcclusion1_8 (AutoDXT, 256X128)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 128X128)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 128X128)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: SkyOcclusion1_10 (AutoDXT, 128X64)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: SkyOcclusion1_11 (AutoDXT, 64X32)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 64X64)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 64X64)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: SkyOcclusion1_12 (AutoDXT, 128X64)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 128X128)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 128X128)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: SkyOcclusion0_13 (AutoDXT, 128X64)
+[2018.11.12-23.33.53:587][207]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2018.11.12-23.33.53:588][207]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2018.11.12-23.33.53:588][207]LogTexture: Display: Building textures: SkyOcclusion0_14 (AutoDXT, 64X32)
+[2018.11.12-23.33.53:588][207]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 64X64)
+[2018.11.12-23.33.53:588][207]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 64X64)
+[2018.11.12-23.33.53:588][207]LogShaderCompilers: Display: Shaders left to compile 240
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 256X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 512X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 128X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 512X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 128X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 32X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (G8, 512X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 256X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (G8, 32X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (G8, 128X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 512X32)
+[2018.11.12-23.33.53:965][207]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 512X32)
+[2018.11.12-23.33.54:305][207]LogShaderCompilers: Display: Shaders left to compile 230
+[2018.11.12-23.33.54:746][207]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2018.11.12-23.34.04:323][207]Lightmass on DESKTOP-RPLIV76: 3:30 min total, 5.19 sec importing, 4.13 sec setup, 25.6 sec photons, 2:54 min processing, 0 ms extra exporting [524/524 mappings]. Threads: 14:31 min total, 6:44 min processing.
+[2018.11.12-23.34.04:323][207]LogShaderCompilers: Display: Shaders left to compile 220
+[2018.11.12-23.34.04:323][207]LogShaderCompilers: Display: Shaders left to compile 210
+[2018.11.12-23.34.04:323][207]LogShaderCompilers: Display: Shaders left to compile 200
+[2018.11.12-23.34.04:323][207]LogShaderCompilers: Display: Shaders left to compile 190
+[2018.11.12-23.34.04:519][207]LogStaticLightingSystem: Illumination: 4:11 min (10.5 sec encoding lightmaps, 1.17 sec encoding shadowmaps)
+[2018.11.12-23.34.04:519][207]LogStaticLightingSystem: Lightmap texture memory:  11.9 MB (11.9 MB streaming, 0.0 MB non-streaming), 28 textures
+[2018.11.12-23.34.04:519][207]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (2.8 MB streaming, 0.0 MB non-streaming), 14 textures
+[2018.11.12-23.34.05:354][207]DumpUnbuiltLightIteractions
+[2018.11.12-23.34.05:354][207]Lights with unbuilt interactions: 1
+[2018.11.12-23.34.05:354][207]    Light LightSource_0
+[2018.11.12-23.34.05:354][207]
+[2018.11.12-23.34.05:354][207]Primitives with unbuilt interactions: 53
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_246
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_245
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_244
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_243
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_242
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_241
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_240
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_239
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_238
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_237
+[2018.11.12-23.34.05:354][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_236
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_235
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_234
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_233
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_231
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_230
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_229
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_228
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_227
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_226
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_225
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_224
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_223
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_222
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_221
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_220
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_219
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_218
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_217
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_216
+[2018.11.12-23.34.05:355][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_215
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_214
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_213
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_212
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_211
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_210
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_21
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_209
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_208
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_207
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_206
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_205
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_204
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_203
+[2018.11.12-23.34.05:356][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_202
+[2018.11.12-23.34.05:357][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_20
+[2018.11.12-23.34.05:357][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_19
+[2018.11.12-23.34.05:357][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_18
+[2018.11.12-23.34.05:357][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_17
+[2018.11.12-23.34.05:357][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_16
+[2018.11.12-23.34.05:357][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_15
+[2018.11.12-23.34.05:357][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_14
+[2018.11.12-23.34.05:357][207]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_13
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 180
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 170
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 160
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 150
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 130
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.11.12-23.34.39:914][207]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.11.12-23.34.39:915][207]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.11.12-23.34.39:915][207]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.12-23.34.39:915][207]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.12-23.34.39:915][207]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.12-23.34.39:915][207]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.12-23.34.39:915][207]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.12-23.34.39:915][207]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.12-23.34.40:063][208]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.11.12-23.34.40:063][208]MapCheck: New page: Starting_Area - Nov 12, 2018, 11:34:40 AM
+[2018.11.12-23.34.40:101][208]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2018.11.12-23.34.44:693][208]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 4,629.914ms to complete.
+[2018.11.12-23.35.11:412][587]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.12-23.35.11:472][587]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.35.11:473][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-23.35.11:473][587]PIE: New page: PIE session: Starting_Area (Nov 12, 2018, 11:35:11 AM)
+[2018.11.12-23.35.11:473][587]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area
+[2018.11.12-23.35.11:564][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091073s)
+[2018.11.12-23.35.11:566][587]LogAIModule: Creating AISystem for world Starting_Area
+[2018.11.12-23.35.11:567][587]LogPlayLevel: PIE: World Init took: (0.002849s)
+[2018.11.12-23.35.11:567][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area to /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area (0.094282s)
+[2018.11.12-23.35.11:644][587]LogInit: XAudio2 using '332-B11-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-23.35.11:658][587]LogInit: FAudioDevice initialized.
+[2018.11.12-23.35.11:669][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.35.11:721][587]LogLoad: Game class is 'BjournGameState_C'
+[2018.11.12-23.35.11:763][587]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area.Starting_Area up for play (max tick rate 0) at 2018.11.12-17.35.11
+[2018.11.12-23.35.11:767][587]LogWorld: Bringing up level for play took: 0.044603
+[2018.11.12-23.35.11:796][587]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Starting_Area 0.98
+[2018.11.12-23.35.11:797][587]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.35.18:934][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.35.18:935][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-23.35.19:007][145]LogSlate: Window 'Bjourn Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.12-23.35.19:059][145]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-23.35.19:059][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area' with GeneratedClass '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Starting_Area.Starting_Area:PersistentLevel.Starting_Area'
+[2018.11.12-23.35.19:192][146]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.11.12-23.49.03:770][383]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mytho\Desktop\Imports\Bowl\FBX\bowl1_low.fbx)
+[2018.11.12-23.49.03:788][383]LogFbx: Loading FBX Scene from C:\Users\mytho\Desktop\Imports\Bowl\FBX\bowl1_low.fbx
+[2018.11.12-23.49.03:818][383]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.12-23.49.05:176][383]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.12-23.49.05:847][383]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
+[2018.11.12-23.49.05:886][383]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.12-23.49.05:886][383]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.12-23.49.05:886][383]LogFbx: Warning: Triangulating static mesh Bowl_v01_low
+[2018.11.12-23.49.06:194][383]LogStaticMesh: Building static mesh bowl1_low_Bowl_v01_low...
+[2018.11.12-23.49.06:308][383]LogStaticMesh: Built static mesh [0.13s] /Game/Imports/Props/Bowl/bowl1_low_Bowl_v01_low.bowl1_low_Bowl_v01_low
+[2018.11.12-23.49.06:451][383]LogFbx: Warning: Triangulating static mesh Bowl_v01_high
+[2018.11.12-23.49.06:678][383]LogStaticMesh: Building static mesh bowl1_low_Bowl_v01_high...
+[2018.11.12-23.49.06:732][383]LogStaticMesh: Built static mesh [0.05s] /Game/Imports/Props/Bowl/bowl1_low_Bowl_v01_high.bowl1_low_Bowl_v01_high
+[2018.11.12-23.49.09:869][474]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.13-00.07.50:585][624]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mytho\Desktop\Imports\wood-stick-02\Log.FBX)
+[2018.11.13-00.07.51:678][624]LogFbx: Loading FBX Scene from C:\Users\mytho\Desktop\Imports\wood-stick-02\Log.FBX
+[2018.11.13-00.07.53:473][624]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.13-00.07.54:991][624]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.13-00.07.55:060][624]LogFbx: =================================================
+[2018.11.13-00.07.55:060][624]LogFbx: Dumping Node START [wood_stick_02] 
+[2018.11.13-00.07.55:061][624]LogFbx: 	Total Deformer Count 2117644464.
+[2018.11.13-00.07.55:061][624]LogFbx: 	Attribute () Type (4).
+[2018.11.13-00.07.55:061][624]LogFbx: 		[Node Attribute Child 1] wood_stick_02 (Type Mesh).
+[2018.11.13-00.07.55:061][624]LogFbx: Dumping Node END [wood_stick_02]
+[2018.11.13-00.07.55:061][624]LogFbx: =================================================
+[2018.11.13-00.07.55:061][624]LogFbx: Dumping Node START [wood_stick_02] 
+[2018.11.13-00.07.55:061][624]LogFbx: 	Total Deformer Count 2117644464.
+[2018.11.13-00.07.55:061][624]LogFbx: 	Attribute () Type (4).
+[2018.11.13-00.07.55:061][624]LogFbx: 		[Node Attribute Child 1] wood_stick_02 (Type Mesh).
+[2018.11.13-00.07.55:061][624]LogFbx: Dumping Node END [wood_stick_02]
+[2018.11.13-00.07.55:105][624]LogMaterial: Warning: Material /Game/Imports/Environment/Trees/Log/wood_stick_02.wood_stick_02 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.11.13-00.07.55:108][624]LogMaterial: Display: Missing cached shader map for material wood_stick_02, compiling. 
+[2018.11.13-00.07.55:190][624]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.13-00.07.55:190][624]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.13-00.07.56:393][624]LogTexture: Display: Building textures: wood_stick_03 (AutoDXT, 4096X4096)
+[2018.11.13-00.08.13:497][624]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.13-00.08.13:497][624]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.13-00.08.13:497][624]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.13-00.08.13:497][624]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.13-00.08.13:916][624]LogMaterial: Display: Missing cached shader map for material wood_stick_02, compiling. 
+[2018.11.13-00.08.14:010][624]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.13-00.08.14:880][624]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.11.13-00.08.19:648][624]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.13-00.08.19:648][624]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.13-00.08.19:712][624]LogSkeletalMesh: Section 0: 67949 vertices, 1 active bones
+[2018.11.13-00.08.19:934][624]LogSkeletalMesh: Section 0: Material=0, 29988 triangles
+[2018.11.13-00.08.19:945][624]LogSkeletalMesh: Building Skeletal Mesh Log...
+[2018.11.13-00.08.20:135][624]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Imports/Environment/Trees/Log/Log.Log
+[2018.11.13-00.08.20:192][624]LogLinker: Can't find file '/Game/Imports/Environment/Trees/Log/Log_Skeleton'
+[2018.11.13-00.08.20:192][624]LogLinker: Can't find file '/Game/Imports/Environment/Trees/Log/Log_Skeleton'
+[2018.11.13-00.08.20:220][624]LogLinker: Can't find file '/Game/Imports/Environment/Trees/Log/Log_PhysicsAsset'
+[2018.11.13-00.08.20:221][624]LogLinker: Can't find file '/Game/Imports/Environment/Trees/Log/Log_PhysicsAsset'
+[2018.11.13-00.08.20:263][624]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.11.13-00.08.20:329][624]LogFbx: =================================================
+[2018.11.13-00.08.20:330][624]LogFbx: Dumping Node START [wood_stick_02] 
+[2018.11.13-00.08.20:330][624]LogFbx: 	Total Deformer Count -910208096.
+[2018.11.13-00.08.20:330][624]LogFbx: 	Attribute () Type (4).
+[2018.11.13-00.08.20:330][624]LogFbx: 		[Node Attribute Child 1] wood_stick_02 (Type Mesh).
+[2018.11.13-00.08.20:330][624]LogFbx: Dumping Node END [wood_stick_02]
+[2018.11.13-00.08.20:330][624]LogFbx: =================================================
+[2018.11.13-00.08.20:330][624]LogFbx: Dumping Node START [wood_stick_02] 
+[2018.11.13-00.08.20:330][624]LogFbx: 	Total Deformer Count -910208096.
+[2018.11.13-00.08.20:330][624]LogFbx: 	Attribute () Type (4).
+[2018.11.13-00.08.20:330][624]LogFbx: 		[Node Attribute Child 1] wood_stick_02 (Type Mesh).
+[2018.11.13-00.08.20:330][624]LogFbx: Dumping Node END [wood_stick_02]
+[2018.11.13-00.08.20:330][624]LogFbx: SortedLinks :(0) wood_stick_02
+[2018.11.13-00.08.20:330][624]LogFbx: Parsing AnimStack Take 001
+[2018.11.13-00.08.20:331][624]LogLinker: Can't find file '/Game/Imports/Environment/Trees/Log/Log_Anim'
+[2018.11.13-00.08.20:331][624]LogLinker: Can't find file '/Game/Imports/Environment/Trees/Log/Log_Anim'
+[2018.11.13-00.08.20:362][624]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Imports/Environment/Trees/Log/Log_Anim.Log_Anim
+[2018.11.13-00.08.20:362][624]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Log_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.13-00.08.20:444][624]LogSkeletalMesh: Building Skeletal Mesh Log...
+[2018.11.13-00.08.20:597][624]LogSkeletalMesh: Built Skeletal Mesh [0.15s] /Game/Imports/Environment/Trees/Log/Log.Log
+[2018.11.13-00.08.20:644][624]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.11.13-00.08.20:669][624]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.13-00.08.20:669][624]LogSkeletalMesh: Building Skeletal Mesh Log...
+[2018.11.13-00.08.20:814][624]LogSkeletalMesh: Built Skeletal Mesh [0.17s] /Game/Imports/Environment/Trees/Log/Log.Log
+[2018.11.13-00.08.21:627][678]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.13-00.08.25:303][ 78]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.13-00.09.13:336][110]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Imports/Environment/Trees/Log/Log.Log
+[2018.11.13-00.09.13:422][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.13-00.09.13:690][110]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.13-00.09.15:424][110]LogRenderer: Reallocating scene render targets to support 916x576 Format 9 NumSamples 1 (Frame:1).
+[2018.11.13-00.09.27:082][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.09.27:124][542]LogSlate: Window 'Log*' being destroyed
+[2018.11.13-00.09.35:019][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.09.39:108][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.09.43:170][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.10.01:233][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.12.51:102][554]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.13.06:738][295]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mytho\Desktop\Imports\Player\Standing Up.fbx)
+[2018.11.13-00.13.06:761][295]LogFbx: Loading FBX Scene from C:\Users\mytho\Desktop\Imports\Player\Standing Up.fbx
+[2018.11.13-00.13.06:851][295]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.13-00.13.07:983][295]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(0) Hips
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(1) Spine
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(2) Spine1
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(3) Spine2
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(4) Neck
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(5) Head
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(7) RightEye
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(8) LeftEye
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(10) LeftArm
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(12) LeftHand
+[2018.11.13-00.13.08:119][295]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(33) RightShoulder
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(34) RightArm
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(35) RightForeArm
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(36) RightHand
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.11.13-00.13.08:120][295]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(58) RightLeg
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(59) RightFoot
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(60) RightToeBase
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(61) RightToe_End
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(63) LeftLeg
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(64) LeftFoot
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.11.13-00.13.08:121][295]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.11.13-00.13.08:122][295]LogFbx: Parsing AnimStack mixamo.com
+[2018.11.13-00.13.08:137][295]LogLinker: Can't find file '/Game/Imports/Characters/Player/Standing_Up'
+[2018.11.13-00.13.08:138][295]LogLinker: Can't find file '/Game/Imports/Characters/Player/Standing_Up'
+[2018.11.13-00.13.10:735][295]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Imports/Characters/Player/Standing_Up.Standing_Up
+[2018.11.13-00.13.10:738][295]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_Up) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.13-00.13.12:294][382]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Imports/Characters/Player/Standing_Up.Standing_Up
+[2018.11.13-00.13.12:308][382]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.13-00.13.12:423][382]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.13-00.13.13:468][382]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.13-00.13.25:100][994]LogSlate: Window 'Standing_Up*' being destroyed
+[2018.11.13-00.13.30:121][383]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.13.36:278][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.13.38:874][ 58]LogSlate: Window 'Save Asset As' being destroyed
+[2018.11.13-00.13.40:200][163]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.13.48:561][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.14.11:943][ 83]LogSlate: Window 'Save Asset As' being destroyed
+[2018.11.13-00.14.11:949][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 3
+[2018.11.13-00.14.12:298][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.14.12:301][ 83]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/Cinematic/Start.Start
+[2018.11.13-00.14.41:785][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.14.41:790][284]LogSlate: Window 'Sequencer' being destroyed
+[2018.11.13-00.14.43:238][378]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.14.43:243][378]LogSlate: Window 'Sequencer' being destroyed
+[2018.11.13-00.14.45:707][555]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.14.45:711][555]LogSlate: Window 'Sequencer' being destroyed
+[2018.11.13-00.14.47:242][658]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.14.47:246][658]LogSlate: Window 'Sequencer' being destroyed
+[2018.11.13-00.14.48:887][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.14.48:892][774]LogSlate: Window 'Sequencer' being destroyed
+[2018.11.13-00.15.37:169][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.16.30:376][272]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.16.30:381][272]LogSlate: Window 'Sequencer' being destroyed
+[2018.11.13-00.16.31:501][358]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.16.31:506][358]LogSlate: Window 'Sequencer' being destroyed
+[2018.11.13-00.17.03:183][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.17.30:284][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.20.22:466][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.20.24:003][498]LogSlate: Window 'Sequencer' being destroyed
+[2018.11.13-00.21.32:644][312]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor)
+[2018.11.13-00.22.03:723][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.22.14:573][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.24.49:010][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.25.17:769][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.25.22:998][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-00.25.37:822][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-00.26.15:448][146]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor)
+[2018.11.13-00.26.22:169][675]Cmd: TRANSACTION UNDO
+[2018.11.13-00.26.22:169][675]LogEditorTransaction: Undo Move Actors
+[2018.11.13-00.26.24:916][675]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.692 s
+[2018.11.13-00.26.24:916][675]LogOutputDevice: Error: === Handled ensure: ===
+[2018.11.13-00.26.24:916][675]LogOutputDevice: Error: 
+[2018.11.13-00.26.24:916][675]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2103]
+[2018.11.13-00.26.24:916][675]LogOutputDevice: Error: 
+[2018.11.13-00.26.24:916][675]LogOutputDevice: Error: Stack: 
+[2018.11.13-00.26.24:916][675]LogOutputDevice: Error: [Callstack] 0x00007ffcbcee71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcbcc20c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcbcc3b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcab83f1e8 UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb8194c25 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb81c01fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb81a6535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb8212dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb8259b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb81ec81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb81a599c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb819f5d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb8a7da43 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffc986077ce UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffc98607bee UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb94a24df UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb94e437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffc986171a2 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffc98607679 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb94e60e9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcb94d9846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcda9ece45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcda9e0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcda9ef4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcda9dc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffce5a36cc1 USER32.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffce5a36693 USER32.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ffcda9f0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ff6f5f454e5 UE4Editor.exe!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ff6f5f55b3c UE4Editor.exe!UnknownFunction []
+[2018.11.13-00.26.24:917][675]LogOutputDevice: Error: [Callstack] 0x00007ff6f5f55bba UE4Editor.exe!UnknownFunction []
+[2018.11.13-00.26.24:918][675]LogOutputDevice: Error: [Callstack] 0x00007ff6f5f63dac UE4Editor.exe!UnknownFunction []
+[2018.11.13-00.26.24:918][675]LogOutputDevice: Error: [Callstack] 0x00007ff6f5f65aaa UE4Editor.exe!UnknownFunction []
+[2018.11.13-00.26.24:918][675]LogOutputDevice: Error: [Callstack] 0x00007ffce3333034 KERNEL32.DLL!UnknownFunction []
+[2018.11.13-00.26.24:918][675]LogOutputDevice: Error: [Callstack] 0x00007ffce5f01461 ntdll.dll!UnknownFunction []
+[2018.11.13-00.26.24:918][675]LogOutputDevice: Error: 
+[2018.11.13-00.26.24:937][675]LogStats:                SubmitErrorReport -  0.011 s
